@@ -1,0 +1,12 @@
+/_build/
+/deps/
+/erl_crash.dump
+
+/cover/
+
+*.plt
+*.plt.hash
+
+/.elixir_ls/
+/*.swp
+lib/.elixir-tools/
