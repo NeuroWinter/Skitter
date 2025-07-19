@@ -1,25 +1,46 @@
 # Skitter
 
-The goal of this projec is to use async tasks to crawl a website, and extract
-all the uniqie links. This includes links to all subdomains of the passed in
-site. These paths and subdomains will be exported in the form of json, or a
-word list that can then be used in ffuf.
+
+The goal of this project was to learn a bit about OTP and create my own site crawler for use in bug bounties.
+I know this may not be the fastest crawler on the plannet, but it is a learning process!
 
 
-## Installation
+## How to Use
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `skitter` to your list of dependencies in `mix.exs`:
+### 1. Clone the repo
 
-```elixir
-def deps do
-  [
-    {:skitter, "~> 0.1.0"}
-  ]
-end
+```sh
+git clone https://github.com/NeuroWinter/skitter.git
+cd skitter
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/skitter>.
+### 2. Install deps
+
+```sh
+mix deps.get
+```
+
+### start an iex session
+
+```sh
+iex -S mix
+```
+
+### Run a crawl
+
+```sh
+Skitter.set_seed("https://example.com")
+```
+
+Skitter will:
+
+* Crawl the site starting from the seed URL
+* Automatically follow and enqueue internal links
+* Stop when there are no more unvisited URLs
+* Print discovered links as it goes
+* Export links to `ffuf_urls.txt`
+
+## Notes
+
+This project is still in VERY early development. There will be changes, also it is not really ready to be used as part of an ffuf workflow just yet. It is still in the idea stages.
 
