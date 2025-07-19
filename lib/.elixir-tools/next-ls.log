@@ -1,0 +1,2315 @@
+
+14:35:52.158 [info] Loading 146 CA(s) from :otp store
+
+14:35:52.368 id=1 [debug] handled request client -> server initialize in 145ms
+
+14:35:52.593 [debug] sent notification server -> client window/logMessage
+
+14:35:52.598 [debug] NextLS v0.23.3 has initialized!
+
+14:35:52.598 [debug] sent notification server -> client window/logMessage
+
+14:35:52.598 [debug] Log file located at /home/neuro/projects/personal/Skitter/lib/.elixir-tools/next-ls.log
+
+14:35:52.600 [debug] sent notification server -> client window/logMessage
+
+14:35:52.600 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+14:35:54.852 [debug] sent notification server -> client window/logMessage
+
+14:35:54.853 [debug] Booting runtimes...
+
+14:35:54.857 id=98 [debug] sent request server -> client window/workDoneProgress/create
+
+14:35:54.860 [debug] sent notification server -> client $/progress
+
+14:35:54.880 [debug] sent notification server -> client window/logMessage
+
+14:35:54.880 [info] Beginning DB migration...
+
+14:35:54.906 [debug] sent notification server -> client window/logMessage
+
+14:35:54.906 [info] Database is being upgraded from version 0 to 7.
+
+This will trigger a full recompilation in order to re-index your codebase.
+
+
+14:35:54.906 [debug] sent notification server -> client window/logMessage
+
+14:35:54.907 [info] Finished DB migration...
+
+14:35:54.907 [debug] sent notification server -> client window/logMessage
+
+14:35:54.907 [info] Booting runtime for /home/neuro/projects/personal/Skitter.
+
+- elixir: /home/neuro/.asdf/shims/elixir
+- zombie wrapper script: /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/cmd
+- working_dir: /home/neuro/projects/personal/Skitter
+- command: /home/neuro/.asdf/shims/elixir --no-halt --sname nextls-runtime-1752892554907046445 --cookie B5KWOZJIEP7TC5LDWAQBZUILE3M23QPWYKPSADNHECVNH73HK4LA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3IW5leHQtbHMtMTc1Mjg5MjU1MjE2OTM3MDc1NUBCZXJuZQAAANsAAAAAaHsEiQ==
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/home/neuro/.asdf/shims:/home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/bin:/home/neuro/.local/share/nvim/mason/bin:/home/neuro/.asdf/shims:/home/neuro/gems/bin:/home/neuro/.asdf/shims:/home/neuro/.npm-global/bin:/home/neuro/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/neuro/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/neuro/.local/bin:/home/neuro/Android/Sdk/tools:/home/neuro/Android/Sdk/platform-tools:/home/neuro/.rvm/bin:/usr/local/go/bin:/home/neuro/go/bin:/home/neuro/.local:/home/neuro/apps/gcc-arm-none-eabi-9-2019-q4-major/bin:/home/neuro/.local/kitty.app/bin:/opt/nvim-linux-x86_64/bin:/home/neuro/.fzf/bin
+
+
+14:35:54.907 [debug] handled notification client -> server initialized in 2319ms
+
+14:35:54.914 [debug] handled notification client -> server textDocument/didOpen in 6ms
+
+14:35:54.935 id=2 [debug] handled request client -> server textDocument/documentSymbol in 20ms
+
+14:35:55.942 [debug] sent notification server -> client window/logMessage
+
+14:35:55.943 [info] Connected to node nextls-runtime-1752892554907046445@Berne
+
+14:35:56.342 [debug] handled notification client -> server textDocument/didChange in 12ms
+
+14:35:56.387 id=3 [debug] handled request client -> server textDocument/codeAction in 45ms
+
+14:35:56.840 [debug] sent notification server -> client $/progress
+
+14:35:56.842 id=4 [debug] handled request client -> server textDocument/documentSymbol in 12ms
+
+14:35:56.842 [debug] sent notification server -> client window/logMessage
+
+14:35:56.843 [debug] Runtime for folder /home/neuro/projects/personal/Skitter is ready...
+
+14:35:56.847 id=103 [debug] sent request server -> client window/workDoneProgress/create
+
+14:35:56.847 [debug] sent notification server -> client $/progress
+
+14:35:56.887 [debug] sent notification server -> client window/logMessage
+
+14:35:56.887 [info] ==> earmark_parser
+
+
+14:35:56.887 [debug] sent notification server -> client window/logMessage
+
+14:35:56.887 [info] Error while loading project :earmark_parser at /home/neuro/projects/personal/Skitter/deps/earmark_parser
+
+
+14:35:56.891 [debug] sent notification server -> client $/progress
+
+14:35:56.891 [debug] sent notification server -> client window/logMessage
+
+14:35:56.891 [warning] Unexpected compiler response: {:error, %FunctionClauseError{module: Base, function: :decode64!, arity: 2, kind: nil, args: nil, clauses: nil}}
+
+14:35:57.584 id=135 [debug] sent request server -> client window/workDoneProgress/create
+
+14:35:57.585 [debug] handled notification client -> server textDocument/didSave in 5ms
+
+14:35:57.585 [debug] sent notification server -> client $/progress
+
+14:35:57.643 [debug] sent notification server -> client window/logMessage
+
+14:35:57.643 [info] Compiling 2 files (.ex)
+
+
+14:35:57.685 [debug] sent notification server -> client window/logMessage
+
+14:35:57.685 [info] 
+== Compilation error in file lib/application.ex ==
+** (FunctionClauseError) no function clause matching in Base.decode64!/2    
+    
+    The following arguments were given to Base.decode64!/2:
+    
+        # 1
+        nil
+    
+        # 2
+        []
+    
+    Attempted function clauses (showing 1 out of 1):
+    
+        def decode64!(+string+, +opts+) when -is_binary(string)-
+    
+    (elixir 1.17.2) lib/base.ex:553: Base.decode64!/2
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:241: NextLSPrivate.Tracer.parent_pid/0
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:64: NextLSPrivate.Tracer.trace/2
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env."-trace/2-lc$^0/1-0-"/3
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env.trace/2
+    (elixir 1.17.2) lib/kernel/parallel_compiler.ex:429: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+14:35:57.696 [debug] sent notification server -> client $/progress
+
+14:35:57.696 [debug] sent notification server -> client window/logMessage
+
+14:35:57.697 [info] Compiled /home/neuro/projects/personal/Skitter!
+
+14:35:57.697 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:35:57.698 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:35:58.420 id=5 [debug] handled request client -> server textDocument/codeAction in 337µs
+
+14:35:58.921 id=6 [debug] handled request client -> server textDocument/codeAction in 267µs
+
+14:35:58.951 id=7 [debug] handled request client -> server textDocument/codeAction in 257µs
+
+14:35:58.982 id=8 [debug] handled request client -> server textDocument/codeAction in 335µs
+
+14:35:59.012 id=9 [debug] handled request client -> server textDocument/codeAction in 296µs
+
+14:35:59.042 id=10 [debug] handled request client -> server textDocument/codeAction in 303µs
+
+14:35:59.073 id=11 [debug] handled request client -> server textDocument/codeAction in 327µs
+
+14:35:59.105 id=12 [debug] handled request client -> server textDocument/codeAction in 266µs
+
+14:35:59.134 id=13 [debug] handled request client -> server textDocument/codeAction in 249µs
+
+14:35:59.164 id=14 [debug] handled request client -> server textDocument/codeAction in 270µs
+
+14:35:59.201 id=15 [debug] handled request client -> server textDocument/codeAction in 3ms
+
+14:36:02.663 id=16 [debug] handled request client -> server textDocument/codeAction in 253µs
+
+14:36:02.785 id=17 [debug] handled request client -> server textDocument/codeAction in 602µs
+
+14:36:02.957 id=18 [debug] handled request client -> server textDocument/codeAction in 229µs
+
+14:36:03.054 id=19 [debug] handled request client -> server textDocument/codeAction in 436µs
+
+14:36:04.873 id=199 [debug] sent request server -> client window/workDoneProgress/create
+
+14:36:04.874 [debug] handled notification client -> server textDocument/didSave in 561µs
+
+14:36:04.879 [debug] sent notification server -> client window/logMessage
+
+14:36:04.879 [info] Compiling 2 files (.ex)
+
+
+14:36:04.879 id=20 [debug] handled request client -> server shutdown in 1ms
+
+14:36:04.884 [debug] sent notification server -> client window/logMessage
+
+14:36:04.884 [info] 
+== Compilation error in file lib/application.ex ==
+** (FunctionClauseError) no function clause matching in Base.decode64!/2    
+    
+    The following arguments were given to Base.decode64!/2:
+    
+        # 1
+        nil
+    
+        # 2
+        []
+    
+    Attempted function clauses (showing 1 out of 1):
+    
+        def decode64!(+string+, +opts+) when -is_binary(string)-
+    
+    (elixir 1.17.2) lib/base.ex:553: Base.decode64!/2
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:241: NextLSPrivate.Tracer.parent_pid/0
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:64: NextLSPrivate.Tracer.trace/2
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env."-trace/2-lc$^0/1-0-"/3
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env.trace/2
+    (elixir 1.17.2) lib/kernel/parallel_compiler.ex:429: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+14:36:04.890 [debug] sent notification server -> client $/progress
+
+14:36:04.891 [error] Writer crashed (:epipe)
+
+14:36:04.893 [debug] sent notification server -> client $/progress
+
+14:36:04.893 [debug] sent notification server -> client window/logMessage
+
+14:36:04.893 [info] Compiled /home/neuro/projects/personal/Skitter!
+
+14:36:04.895 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:36:04.895 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:36:04.891 [error] GenServer #PID<0.65.0> terminating
+** (stop) :terminated
+Last message: {:EXIT, #PID<0.70.0>, :terminated}
+State: {:state, :user_sup, :undefined, #PID<0.70.0>, {#PID<0.65.0>, :user_sup}}
+
+14:36:13.169 [info] Loading 146 CA(s) from :otp store
+
+14:36:13.282 id=1 [debug] handled request client -> server initialize in 66ms
+
+14:36:13.657 [debug] sent notification server -> client window/logMessage
+
+14:36:13.684 [debug] NextLS v0.23.3 has initialized!
+
+14:36:13.684 [debug] sent notification server -> client window/logMessage
+
+14:36:13.684 [debug] Log file located at /home/neuro/projects/personal/Skitter/lib/.elixir-tools/next-ls.log
+
+14:36:13.686 [debug] sent notification server -> client window/logMessage
+
+14:36:13.686 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+14:36:15.825 [debug] sent notification server -> client window/logMessage
+
+14:36:15.826 [debug] Booting runtimes...
+
+14:36:15.829 id=71 [debug] sent request server -> client window/workDoneProgress/create
+
+14:36:15.838 [debug] sent notification server -> client $/progress
+
+14:36:15.849 [debug] sent notification server -> client window/logMessage
+
+14:36:15.849 [info] Beginning DB migration...
+
+14:36:15.853 [debug] sent notification server -> client window/logMessage
+
+14:36:15.853 [info] Database is on the latest version: 7
+
+14:36:15.853 [debug] sent notification server -> client window/logMessage
+
+14:36:15.853 [info] Finished DB migration...
+
+14:36:15.853 [debug] sent notification server -> client window/logMessage
+
+14:36:15.853 [info] Booting runtime for /home/neuro/projects/personal/Skitter.
+
+- elixir: /home/neuro/.asdf/shims/elixir
+- zombie wrapper script: /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/cmd
+- working_dir: /home/neuro/projects/personal/Skitter
+- command: /home/neuro/.asdf/shims/elixir --no-halt --sname nextls-runtime-1752892575853058204 --cookie B5KWOZJIEP7TC5LDWAQBZUILE3M23QPWYKPSADNHECVNH73HK4LA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3IW5leHQtbHMtMTc1Mjg5MjU3MzE3NjgzMzI5OEBCZXJuZQAAANsAAAAAaHsEng==
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/home/neuro/.asdf/shims:/home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/bin:/home/neuro/.local/share/nvim/mason/bin:/home/neuro/.asdf/shims:/home/neuro/gems/bin:/home/neuro/.asdf/shims:/home/neuro/.npm-global/bin:/home/neuro/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/neuro/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/neuro/.local/bin:/home/neuro/Android/Sdk/tools:/home/neuro/Android/Sdk/platform-tools:/home/neuro/.rvm/bin:/usr/local/go/bin:/home/neuro/go/bin:/home/neuro/.local:/home/neuro/apps/gcc-arm-none-eabi-9-2019-q4-major/bin:/home/neuro/.local/kitty.app/bin:/opt/nvim-linux-x86_64/bin:/home/neuro/.fzf/bin
+
+
+14:36:15.853 [debug] handled notification client -> server initialized in 2202ms
+
+14:36:15.856 [debug] handled notification client -> server textDocument/didOpen in 3ms
+
+14:36:15.869 id=2 [debug] handled request client -> server textDocument/documentSymbol in 12ms
+
+14:36:15.882 id=3 [debug] handled request client -> server textDocument/codeAction in 12ms
+
+14:36:15.882 id=4 [debug] handled request client -> server textDocument/codeAction in 280µs
+
+14:36:15.884 id=5 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+14:36:16.350 id=6 [debug] handled request client -> server textDocument/codeAction in 350µs
+
+14:36:16.377 id=7 [debug] handled request client -> server textDocument/codeAction in 239µs
+
+14:36:16.412 id=8 [debug] handled request client -> server textDocument/codeAction in 4ms
+
+14:36:16.437 id=9 [debug] handled request client -> server textDocument/codeAction in 315µs
+
+14:36:16.471 id=10 [debug] handled request client -> server textDocument/codeAction in 295µs
+
+14:36:16.498 id=11 [debug] handled request client -> server textDocument/codeAction in 380µs
+
+14:36:16.530 id=12 [debug] handled request client -> server textDocument/codeAction in 272µs
+
+14:36:16.561 id=13 [debug] handled request client -> server textDocument/codeAction in 361µs
+
+14:36:16.596 id=14 [debug] handled request client -> server textDocument/codeAction in 3ms
+
+14:36:16.871 [debug] sent notification server -> client window/logMessage
+
+14:36:16.871 [info] Connected to node nextls-runtime-1752892575853058204@Berne
+
+14:36:17.756 [debug] sent notification server -> client $/progress
+
+14:36:17.759 [debug] sent notification server -> client window/logMessage
+
+14:36:17.760 [debug] Runtime for folder /home/neuro/projects/personal/Skitter is ready...
+
+14:36:17.766 id=1736 [debug] sent request server -> client window/workDoneProgress/create
+
+14:36:17.767 [debug] sent notification server -> client $/progress
+
+14:36:17.833 [debug] sent notification server -> client window/logMessage
+
+14:36:17.834 [info] ==> earmark_parser
+
+
+14:36:17.834 [debug] sent notification server -> client window/logMessage
+
+14:36:17.834 [info] Error while loading project :earmark_parser at /home/neuro/projects/personal/Skitter/deps/earmark_parser
+
+
+14:36:17.836 [debug] sent notification server -> client $/progress
+
+14:36:17.836 [debug] sent notification server -> client window/logMessage
+
+14:36:17.836 [warning] Unexpected compiler response: {:error, %FunctionClauseError{module: Base, function: :decode64!, arity: 2, kind: nil, args: nil, clauses: nil}}
+
+14:36:18.176 id=15 [debug] handled request client -> server textDocument/codeAction in 412µs
+
+14:36:18.336 id=16 [debug] handled request client -> server textDocument/codeAction in 342µs
+
+14:36:18.478 id=17 [debug] handled request client -> server textDocument/codeAction in 378µs
+
+14:36:18.647 id=18 [debug] handled request client -> server textDocument/codeAction in 891µs
+
+14:36:19.033 [debug] handled notification client -> server textDocument/didChange in 12ms
+
+14:36:19.521 id=19 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+14:36:19.980 [debug] handled notification client -> server textDocument/didChange in 404µs
+
+14:36:20.127 [debug] handled notification client -> server textDocument/didChange in 379µs
+
+14:36:20.459 [debug] handled notification client -> server textDocument/didChange in 486µs
+
+14:36:20.609 [debug] handled notification client -> server textDocument/didChange in 465µs
+
+14:36:20.759 [debug] handled notification client -> server textDocument/didChange in 460µs
+
+14:36:21.267 [debug] sent notification server -> client window/logMessage
+
+14:36:21.267 id=20 [debug] handled request client -> server textDocument/documentSymbol in 7ms
+
+14:36:21.529 [debug] handled notification client -> server textDocument/didChange in 429µs
+
+14:36:21.790 [debug] handled notification client -> server textDocument/didChange in 438µs
+
+14:36:22.292 [debug] sent notification server -> client window/logMessage
+
+14:36:22.293 id=21 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+14:36:23.100 [debug] handled notification client -> server textDocument/didChange in 438µs
+
+14:36:23.249 [debug] handled notification client -> server textDocument/didChange in 428µs
+
+14:36:23.481 id=22 [debug] handled request client -> server textDocument/codeAction in 536µs
+
+14:36:23.751 [debug] sent notification server -> client window/logMessage
+
+14:36:23.751 id=23 [debug] handled request client -> server textDocument/documentSymbol in 877µs
+
+14:36:24.454 id=135 [debug] sent request server -> client window/workDoneProgress/create
+
+14:36:24.455 [debug] handled notification client -> server textDocument/didSave in 3ms
+
+14:36:24.461 [debug] sent notification server -> client $/progress
+
+14:36:24.508 [debug] sent notification server -> client window/logMessage
+
+14:36:24.508 [info] Compiling 2 files (.ex)
+
+
+14:36:24.544 [debug] sent notification server -> client window/logMessage
+
+14:36:24.545 [info] 
+== Compilation error in file lib/application.ex ==
+** (FunctionClauseError) no function clause matching in Base.decode64!/2    
+    
+    The following arguments were given to Base.decode64!/2:
+    
+        # 1
+        nil
+    
+        # 2
+        []
+    
+    Attempted function clauses (showing 1 out of 1):
+    
+        def decode64!(+string+, +opts+) when -is_binary(string)-
+    
+    (elixir 1.17.2) lib/base.ex:553: Base.decode64!/2
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:241: NextLSPrivate.Tracer.parent_pid/0
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:64: NextLSPrivate.Tracer.trace/2
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env."-trace/2-lc$^0/1-0-"/3
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env.trace/2
+    (elixir 1.17.2) lib/kernel/parallel_compiler.ex:429: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+14:36:24.559 [debug] sent notification server -> client $/progress
+
+14:36:24.559 [debug] sent notification server -> client window/logMessage
+
+14:36:24.559 [info] Compiled /home/neuro/projects/personal/Skitter!
+
+14:36:24.559 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:36:24.563 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:36:24.678 id=24 [debug] handled request client -> server textDocument/codeAction in 299µs
+
+14:36:24.826 id=25 [debug] handled request client -> server textDocument/codeAction in 637µs
+
+14:36:24.977 id=26 [debug] handled request client -> server textDocument/codeAction in 252µs
+
+14:36:25.107 id=27 [debug] handled request client -> server textDocument/codeAction in 601µs
+
+14:36:25.281 id=28 [debug] handled request client -> server textDocument/codeAction in 336µs
+
+14:36:25.364 id=29 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+14:36:25.666 id=30 [debug] handled request client -> server textDocument/codeAction in 452µs
+
+14:36:32.561 [debug] handled notification client -> server textDocument/didChange in 508µs
+
+14:36:32.955 id=31 [debug] handled request client -> server textDocument/codeAction in 504µs
+
+14:36:33.072 id=32 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+14:36:33.854 id=199 [debug] sent request server -> client window/workDoneProgress/create
+
+14:36:33.855 [debug] handled notification client -> server textDocument/didSave in 2ms
+
+14:36:33.874 [debug] sent notification server -> client $/progress
+
+14:36:33.878 [debug] sent notification server -> client window/logMessage
+
+14:36:33.878 [info] Compiling 2 files (.ex)
+
+
+14:36:33.897 [debug] sent notification server -> client window/logMessage
+
+14:36:33.897 [info] 
+== Compilation error in file lib/skitter.ex ==
+** (FunctionClauseError) no function clause matching in Base.decode64!/2    
+    
+    The following arguments were given to Base.decode64!/2:
+    
+        # 1
+        nil
+    
+        # 2
+        []
+    
+    Attempted function clauses (showing 1 out of 1):
+    
+        def decode64!(+string+, +opts+) when -is_binary(string)-
+    
+    (elixir 1.17.2) lib/base.ex:553: Base.decode64!/2
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:241: NextLSPrivate.Tracer.parent_pid/0
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:64: NextLSPrivate.Tracer.trace/2
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env."-trace/2-lc$^0/1-0-"/3
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env.trace/2
+    (elixir 1.17.2) lib/kernel/parallel_compiler.ex:429: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+14:36:33.912 [debug] sent notification server -> client $/progress
+
+14:36:33.912 [debug] sent notification server -> client window/logMessage
+
+14:36:33.913 [info] Compiled /home/neuro/projects/personal/Skitter!
+
+14:36:33.916 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:36:33.916 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:36:33.917 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:36:33.917 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:36:33.933 id=33 [debug] handled request client -> server textDocument/codeAction in 630µs
+
+14:36:34.067 id=34 [debug] handled request client -> server textDocument/codeAction in 426µs
+
+14:36:43.671 [info] Loading 146 CA(s) from :otp store
+
+14:36:43.785 id=1 [debug] handled request client -> server initialize in 68ms
+
+14:36:44.086 [debug] sent notification server -> client window/logMessage
+
+14:36:44.091 [debug] NextLS v0.23.3 has initialized!
+
+14:36:44.091 [debug] sent notification server -> client window/logMessage
+
+14:36:44.091 [debug] Log file located at /home/neuro/projects/personal/Skitter/lib/.elixir-tools/next-ls.log
+
+14:36:44.092 [debug] sent notification server -> client window/logMessage
+
+14:36:44.092 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+14:36:46.150 [debug] sent notification server -> client window/logMessage
+
+14:36:46.150 [debug] Booting runtimes...
+
+14:36:46.153 id=40 [debug] sent request server -> client window/workDoneProgress/create
+
+14:36:46.161 [debug] sent notification server -> client $/progress
+
+14:36:46.172 [debug] sent notification server -> client window/logMessage
+
+14:36:46.172 [info] Beginning DB migration...
+
+14:36:46.176 [debug] sent notification server -> client window/logMessage
+
+14:36:46.176 [info] Database is on the latest version: 7
+
+14:36:46.176 [debug] sent notification server -> client window/logMessage
+
+14:36:46.176 [info] Finished DB migration...
+
+14:36:46.176 [debug] sent notification server -> client window/logMessage
+
+14:36:46.176 [info] Booting runtime for /home/neuro/projects/personal/Skitter.
+
+- elixir: /home/neuro/.asdf/shims/elixir
+- zombie wrapper script: /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/cmd
+- working_dir: /home/neuro/projects/personal/Skitter
+- command: /home/neuro/.asdf/shims/elixir --no-halt --sname nextls-runtime-1752892606176531901 --cookie B5KWOZJIEP7TC5LDWAQBZUILE3M23QPWYKPSADNHECVNH73HK4LA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3IW5leHQtbHMtMTc1Mjg5MjYwMzY3OTE2ODM2MkBCZXJuZQAAANsAAAAAaHsEvA==
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/home/neuro/.asdf/shims:/home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/bin:/home/neuro/.local/share/nvim/mason/bin:/home/neuro/.asdf/shims:/home/neuro/gems/bin:/home/neuro/.asdf/shims:/home/neuro/.npm-global/bin:/home/neuro/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/neuro/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/neuro/.local/bin:/home/neuro/Android/Sdk/tools:/home/neuro/Android/Sdk/platform-tools:/home/neuro/.rvm/bin:/usr/local/go/bin:/home/neuro/go/bin:/home/neuro/.local:/home/neuro/apps/gcc-arm-none-eabi-9-2019-q4-major/bin:/home/neuro/.local/kitty.app/bin:/opt/nvim-linux-x86_64/bin:/home/neuro/.fzf/bin
+
+
+14:36:46.177 [debug] handled notification client -> server initialized in 2097ms
+
+14:36:46.180 [debug] handled notification client -> server textDocument/didOpen in 3ms
+
+14:36:46.190 id=2 [debug] handled request client -> server textDocument/documentSymbol in 10ms
+
+14:36:46.205 id=3 [debug] handled request client -> server textDocument/codeAction in 15ms
+
+14:36:47.188 [debug] sent notification server -> client window/logMessage
+
+14:36:47.188 [info] Connected to node nextls-runtime-1752892606176531901@Berne
+
+14:36:47.964 [debug] sent notification server -> client $/progress
+
+14:36:47.966 [debug] sent notification server -> client window/logMessage
+
+14:36:47.966 [debug] Runtime for folder /home/neuro/projects/personal/Skitter is ready...
+
+14:36:47.968 id=41 [debug] sent request server -> client window/workDoneProgress/create
+
+14:36:47.968 [debug] sent notification server -> client $/progress
+
+14:36:48.001 [debug] sent notification server -> client window/logMessage
+
+14:36:48.001 [info] ==> earmark_parser
+Error while loading project :earmark_parser at /home/neuro/projects/personal/Skitter/deps/earmark_parser
+
+
+14:36:48.003 [debug] sent notification server -> client $/progress
+
+14:36:48.003 [debug] sent notification server -> client window/logMessage
+
+14:36:48.003 [warning] Unexpected compiler response: {:error, %FunctionClauseError{module: Base, function: :decode64!, arity: 2, kind: nil, args: nil, clauses: nil}}
+
+14:36:48.894 id=4 [debug] handled request client -> server textDocument/codeAction in 453µs
+
+14:36:48.977 id=5 [debug] handled request client -> server textDocument/codeAction in 441µs
+
+14:36:53.102 id=6 [debug] handled request client -> server textDocument/codeAction in 563µs
+
+14:38:06.133 [info] Loading 146 CA(s) from :otp store
+
+14:38:06.241 id=1 [debug] handled request client -> server initialize in 66ms
+
+14:38:06.662 [debug] sent notification server -> client window/logMessage
+
+14:38:06.668 [debug] NextLS v0.23.3 has initialized!
+
+14:38:06.668 [debug] sent notification server -> client window/logMessage
+
+14:38:06.668 [debug] Log file located at /home/neuro/projects/personal/Skitter/lib/.elixir-tools/next-ls.log
+
+14:38:06.671 [debug] sent notification server -> client window/logMessage
+
+14:38:06.671 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+14:38:08.456 [debug] sent notification server -> client window/logMessage
+
+14:38:08.456 [debug] Booting runtimes...
+
+14:38:08.458 id=1667 [debug] sent request server -> client window/workDoneProgress/create
+
+14:38:08.466 [debug] sent notification server -> client $/progress
+
+14:38:08.473 [debug] sent notification server -> client window/logMessage
+
+14:38:08.474 [info] Beginning DB migration...
+
+14:38:08.477 [debug] sent notification server -> client window/logMessage
+
+14:38:08.477 [info] Database is on the latest version: 7
+
+14:38:08.477 [debug] sent notification server -> client window/logMessage
+
+14:38:08.477 [info] Finished DB migration...
+
+14:38:08.477 [debug] sent notification server -> client window/logMessage
+
+14:38:08.477 [info] Booting runtime for /home/neuro/projects/personal/Skitter.
+
+- elixir: /home/neuro/.asdf/shims/elixir
+- zombie wrapper script: /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/cmd
+- working_dir: /home/neuro/projects/personal/Skitter
+- command: /home/neuro/.asdf/shims/elixir --no-halt --sname nextls-runtime-1752892688477369771 --cookie B5KWOZJIEP7TC5LDWAQBZUILE3M23QPWYKPSADNHECVNH73HK4LA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3IW5leHQtbHMtMTc1Mjg5MjY4NjE0MjQyODk4NkBCZXJuZQAAANsAAAAAaHsFDw==
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/home/neuro/.asdf/shims:/home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/bin:/home/neuro/.local/share/nvim/mason/bin:/home/neuro/.asdf/shims:/home/neuro/gems/bin:/home/neuro/.asdf/shims:/home/neuro/.npm-global/bin:/home/neuro/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/home/neuro/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/neuro/.local/bin:/home/neuro/Android/Sdk/tools:/home/neuro/Android/Sdk/platform-tools:/home/neuro/.rvm/bin:/usr/local/go/bin:/home/neuro/go/bin:/home/neuro/.local:/home/neuro/apps/gcc-arm-none-eabi-9-2019-q4-major/bin:/home/neuro/.local/kitty.app/bin:/opt/nvim-linux-x86_64/bin:/home/neuro/.fzf/bin
+
+
+14:38:08.477 [debug] handled notification client -> server initialized in 1834ms
+
+14:38:08.480 [debug] handled notification client -> server textDocument/didOpen in 2ms
+
+14:38:08.491 id=2 [debug] handled request client -> server textDocument/documentSymbol in 11ms
+
+14:38:08.807 id=3 [debug] handled request client -> server textDocument/codeAction in 32ms
+
+14:38:09.504 [debug] sent notification server -> client window/logMessage
+
+14:38:09.504 [info] Connected to node nextls-runtime-1752892688477369771@Berne
+
+14:38:10.203 [debug] sent notification server -> client $/progress
+
+14:38:10.204 [debug] sent notification server -> client window/logMessage
+
+14:38:10.204 [debug] Runtime for folder /home/neuro/projects/personal/Skitter is ready...
+
+14:38:10.207 id=34 [debug] sent request server -> client window/workDoneProgress/create
+
+14:38:10.208 [debug] sent notification server -> client $/progress
+
+14:38:10.272 [debug] sent notification server -> client window/logMessage
+
+14:38:10.272 [info] ==> earmark_parser
+
+
+14:38:10.272 [debug] sent notification server -> client window/logMessage
+
+14:38:10.272 [info] Error while loading project :earmark_parser at /home/neuro/projects/personal/Skitter/deps/earmark_parser
+
+
+14:38:10.277 [debug] sent notification server -> client $/progress
+
+14:38:10.277 [debug] sent notification server -> client window/logMessage
+
+14:38:10.277 [warning] Unexpected compiler response: {:error, %FunctionClauseError{module: Base, function: :decode64!, arity: 2, kind: nil, args: nil, clauses: nil}}
+
+14:38:10.512 id=4 [debug] handled request client -> server textDocument/codeAction in 334µs
+
+14:38:10.661 id=5 [debug] handled request client -> server textDocument/codeAction in 386µs
+
+14:38:10.719 id=6 [debug] handled request client -> server textDocument/codeAction in 376µs
+
+14:38:13.700 [debug] handled notification client -> server textDocument/didOpen in 163µs
+
+14:38:13.701 id=7 [debug] handled request client -> server textDocument/documentSymbol in 229µs
+
+14:38:14.208 id=8 [debug] handled request client -> server textDocument/codeAction in 399µs
+
+14:38:42.582 [debug] handled notification client -> server textDocument/didChange in 12ms
+
+14:38:42.992 id=9 [debug] handled request client -> server textDocument/codeAction in 524µs
+
+14:38:43.072 id=10 [debug] handled request client -> server textDocument/documentSymbol in 3ms
+
+14:38:43.601 id=66 [debug] sent request server -> client window/workDoneProgress/create
+
+14:38:43.604 [debug] handled notification client -> server textDocument/didSave in 6ms
+
+14:38:43.744 [debug] sent notification server -> client window/logMessage
+
+14:38:43.744 [info] Compiling 5 files (.ex)
+
+
+14:38:43.827 [debug] sent notification server -> client window/logMessage
+
+14:38:43.827 [info] 
+== Compilation error in file lib/skitter.ex ==
+** (FunctionClauseError) no function clause matching in Base.decode64!/2    
+    
+    The following arguments were given to Base.decode64!/2:
+    
+        # 1
+        nil
+    
+        # 2
+        []
+    
+    Attempted function clauses (showing 1 out of 1):
+    
+        def decode64!(+string+, +opts+) when -is_binary(string)-
+    
+    (elixir 1.17.2) lib/base.ex:553: Base.decode64!/2
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:241: NextLSPrivate.Tracer.parent_pid/0
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:64: NextLSPrivate.Tracer.trace/2
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env."-trace/2-lc$^0/1-0-"/3
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env.trace/2
+    (elixir 1.17.2) lib/kernel/parallel_compiler.ex:429: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+14:38:43.848 [debug] sent notification server -> client $/progress
+
+14:38:43.849 [debug] sent notification server -> client window/logMessage
+
+14:38:43.849 [info] Compiled /home/neuro/projects/personal/Skitter!
+
+14:38:43.849 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:38:43.860 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:38:44.641 [debug] sent notification server -> client $/progress
+
+14:38:46.339 id=11 [debug] handled request client -> server textDocument/codeAction in 489µs
+
+14:38:47.064 id=12 [debug] handled request client -> server textDocument/codeAction in 437µs
+
+14:38:47.348 id=13 [debug] handled request client -> server textDocument/codeAction in 612µs
+
+14:38:47.847 id=14 [debug] handled request client -> server textDocument/codeAction in 593µs
+
+14:38:47.878 id=15 [debug] handled request client -> server textDocument/codeAction in 488µs
+
+14:38:47.908 id=16 [debug] handled request client -> server textDocument/codeAction in 390µs
+
+14:38:48.022 id=17 [debug] handled request client -> server textDocument/codeAction in 326µs
+
+14:38:48.440 [debug] handled notification client -> server textDocument/didChange in 524µs
+
+14:38:48.954 id=18 [debug] handled request client -> server textDocument/documentSymbol in 3ms
+
+14:38:49.189 [debug] handled notification client -> server textDocument/didChange in 670µs
+
+14:38:49.543 [debug] handled notification client -> server textDocument/didChange in 771µs
+
+14:38:49.693 [debug] handled notification client -> server textDocument/didChange in 929µs
+
+14:38:49.843 [debug] handled notification client -> server textDocument/didChange in 759µs
+
+14:38:49.994 [debug] handled notification client -> server textDocument/didChange in 698µs
+
+14:38:50.148 [debug] handled notification client -> server textDocument/didChange in 744µs
+
+14:38:50.295 [debug] handled notification client -> server textDocument/didChange in 777µs
+
+14:38:50.445 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+14:38:50.602 [debug] handled notification client -> server textDocument/didChange in 755µs
+
+14:38:50.764 [debug] handled notification client -> server textDocument/didChange in 2ms
+
+14:38:51.046 [debug] handled notification client -> server textDocument/didChange in 767µs
+
+14:38:51.198 [debug] handled notification client -> server textDocument/didChange in 744µs
+
+14:38:51.351 [debug] handled notification client -> server textDocument/didChange in 4ms
+
+14:38:51.495 [debug] handled notification client -> server textDocument/didChange in 755µs
+
+14:38:51.645 [debug] handled notification client -> server textDocument/didChange in 742µs
+
+14:38:51.795 [debug] handled notification client -> server textDocument/didChange in 797µs
+
+14:38:51.946 [debug] handled notification client -> server textDocument/didChange in 755µs
+
+14:38:52.094 [debug] handled notification client -> server textDocument/didChange in 752µs
+
+14:38:52.242 [debug] handled notification client -> server textDocument/didChange in 519µs
+
+14:38:52.392 [debug] handled notification client -> server textDocument/didChange in 490µs
+
+14:38:52.598 [debug] handled notification client -> server textDocument/didChange in 382µs
+
+14:38:52.748 [debug] handled notification client -> server textDocument/didChange in 403µs
+
+14:38:52.898 [debug] handled notification client -> server textDocument/didChange in 441µs
+
+14:38:53.047 [debug] handled notification client -> server textDocument/didChange in 507µs
+
+14:38:53.198 [debug] handled notification client -> server textDocument/didChange in 486µs
+
+14:38:53.347 [debug] handled notification client -> server textDocument/didChange in 470µs
+
+14:38:53.496 [debug] handled notification client -> server textDocument/didChange in 374µs
+
+14:38:53.645 [debug] handled notification client -> server textDocument/didChange in 345µs
+
+14:38:53.795 [debug] handled notification client -> server textDocument/didChange in 331µs
+
+14:38:53.944 [debug] handled notification client -> server textDocument/didChange in 329µs
+
+14:38:54.095 [debug] handled notification client -> server textDocument/didChange in 354µs
+
+14:38:54.244 [debug] handled notification client -> server textDocument/didChange in 337µs
+
+14:38:54.394 [debug] handled notification client -> server textDocument/didChange in 346µs
+
+14:38:54.545 [debug] handled notification client -> server textDocument/didChange in 345µs
+
+14:38:54.755 [debug] handled notification client -> server textDocument/didChange in 516µs
+
+14:38:54.901 [debug] handled notification client -> server textDocument/didChange in 623µs
+
+14:38:55.050 [debug] handled notification client -> server textDocument/didChange in 452µs
+
+14:38:55.198 [debug] handled notification client -> server textDocument/didChange in 602µs
+
+14:38:55.351 [debug] handled notification client -> server textDocument/didChange in 3ms
+
+14:38:55.849 id=19 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+
+14:38:56.136 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+14:38:56.346 [debug] handled notification client -> server textDocument/didChange in 750µs
+
+14:38:56.739 id=20 [debug] handled request client -> server textDocument/codeAction in 541µs
+
+14:38:56.854 id=21 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+
+14:38:57.667 id=22 [debug] handled request client -> server textDocument/codeAction in 494µs
+
+14:38:58.159 id=23 [debug] handled request client -> server textDocument/codeAction in 400µs
+
+14:38:58.190 id=24 [debug] handled request client -> server textDocument/codeAction in 595µs
+
+14:38:58.221 id=25 [debug] handled request client -> server textDocument/codeAction in 538µs
+
+14:38:58.255 id=26 [debug] handled request client -> server textDocument/codeAction in 538µs
+
+14:38:58.282 id=27 [debug] handled request client -> server textDocument/codeAction in 524µs
+
+14:38:58.314 id=28 [debug] handled request client -> server textDocument/codeAction in 483µs
+
+14:38:58.345 id=29 [debug] handled request client -> server textDocument/codeAction in 482µs
+
+14:38:58.374 id=30 [debug] handled request client -> server textDocument/codeAction in 455µs
+
+14:38:58.403 id=31 [debug] handled request client -> server textDocument/codeAction in 382µs
+
+14:38:58.444 id=32 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+14:38:58.865 id=33 [debug] handled request client -> server textDocument/codeAction in 504µs
+
+14:38:59.367 id=34 [debug] handled request client -> server textDocument/codeAction in 373µs
+
+14:38:59.391 id=35 [debug] handled request client -> server textDocument/codeAction in 570µs
+
+14:38:59.425 id=36 [debug] handled request client -> server textDocument/codeAction in 512µs
+
+14:38:59.455 id=37 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+14:38:59.485 id=38 [debug] handled request client -> server textDocument/codeAction in 433µs
+
+14:38:59.516 id=39 [debug] handled request client -> server textDocument/codeAction in 398µs
+
+14:38:59.545 id=40 [debug] handled request client -> server textDocument/codeAction in 480µs
+
+14:38:59.576 id=41 [debug] handled request client -> server textDocument/codeAction in 483µs
+
+14:38:59.610 id=42 [debug] handled request client -> server textDocument/codeAction in 536µs
+
+14:38:59.640 id=43 [debug] handled request client -> server textDocument/codeAction in 475µs
+
+14:38:59.669 id=44 [debug] handled request client -> server textDocument/codeAction in 539µs
+
+14:39:00.054 id=45 [debug] handled request client -> server textDocument/codeAction in 451µs
+
+14:43:12.802 id=46 [debug] handled request client -> server textDocument/codeAction in 268µs
+
+14:43:13.227 id=47 [debug] handled request client -> server textDocument/codeAction in 219µs
+
+14:43:14.595 id=48 [debug] handled request client -> server textDocument/codeAction in 271µs
+
+14:43:14.758 id=49 [debug] handled request client -> server textDocument/codeAction in 331µs
+
+14:43:14.930 id=50 [debug] handled request client -> server textDocument/codeAction in 215µs
+
+14:43:15.661 id=51 [debug] handled request client -> server textDocument/codeAction in 205µs
+
+14:43:16.977 id=52 [debug] handled request client -> server textDocument/codeAction in 194µs
+
+14:43:17.429 id=53 [debug] handled request client -> server textDocument/codeAction in 227µs
+
+14:43:20.094 [debug] handled notification client -> server textDocument/didChange in 244µs
+
+14:43:20.568 [debug] handled notification client -> server textDocument/didChange in 252µs
+
+14:43:20.787 [debug] handled notification client -> server textDocument/didChange in 289µs
+
+14:43:21.151 [debug] handled notification client -> server textDocument/didChange in 248µs
+
+14:43:21.302 [debug] handled notification client -> server textDocument/didChange in 305µs
+
+14:43:21.451 [debug] handled notification client -> server textDocument/didChange in 376µs
+
+14:43:21.600 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+14:43:21.749 [debug] handled notification client -> server textDocument/didChange in 250µs
+
+14:43:21.898 [debug] handled notification client -> server textDocument/didChange in 282µs
+
+14:43:22.048 [debug] handled notification client -> server textDocument/didChange in 382µs
+
+14:43:22.197 [debug] handled notification client -> server textDocument/didChange in 273µs
+
+14:43:22.346 [debug] handled notification client -> server textDocument/didChange in 267µs
+
+14:43:22.496 [debug] handled notification client -> server textDocument/didChange in 271µs
+
+14:43:22.646 [debug] handled notification client -> server textDocument/didChange in 233µs
+
+14:43:22.795 [debug] handled notification client -> server textDocument/didChange in 282µs
+
+14:43:22.944 [debug] handled notification client -> server textDocument/didChange in 224µs
+
+14:43:23.093 [debug] handled notification client -> server textDocument/didChange in 270µs
+
+14:43:23.242 [debug] handled notification client -> server textDocument/didChange in 263µs
+
+14:43:23.392 [debug] handled notification client -> server textDocument/didChange in 478µs
+
+14:43:23.541 [debug] handled notification client -> server textDocument/didChange in 278µs
+
+14:43:23.690 [debug] handled notification client -> server textDocument/didChange in 252µs
+
+14:43:23.839 [debug] handled notification client -> server textDocument/didChange in 264µs
+
+14:43:23.988 [debug] handled notification client -> server textDocument/didChange in 360µs
+
+14:43:24.137 [debug] handled notification client -> server textDocument/didChange in 255µs
+
+14:43:24.287 [debug] handled notification client -> server textDocument/didChange in 263µs
+
+14:43:24.436 [debug] handled notification client -> server textDocument/didChange in 359µs
+
+14:43:24.585 [debug] handled notification client -> server textDocument/didChange in 265µs
+
+14:43:24.734 [debug] handled notification client -> server textDocument/didChange in 303µs
+
+14:43:24.884 [debug] handled notification client -> server textDocument/didChange in 286µs
+
+14:43:25.033 [debug] handled notification client -> server textDocument/didChange in 259µs
+
+14:43:25.289 [debug] handled notification client -> server textDocument/didChange in 263µs
+
+14:43:25.439 [debug] handled notification client -> server textDocument/didChange in 276µs
+
+14:43:25.588 [debug] handled notification client -> server textDocument/didChange in 281µs
+
+14:43:26.075 [debug] handled notification client -> server textDocument/didChange in 349µs
+
+14:43:26.224 [debug] handled notification client -> server textDocument/didChange in 277µs
+
+14:43:26.373 [debug] handled notification client -> server textDocument/didChange in 268µs
+
+14:43:26.631 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+14:43:26.780 [debug] handled notification client -> server textDocument/didChange in 273µs
+
+14:43:26.929 [debug] handled notification client -> server textDocument/didChange in 289µs
+
+14:43:27.079 [debug] handled notification client -> server textDocument/didChange in 570µs
+
+14:43:27.229 [debug] handled notification client -> server textDocument/didChange in 314µs
+
+14:43:27.378 [debug] handled notification client -> server textDocument/didChange in 236µs
+
+14:43:27.529 [debug] handled notification client -> server textDocument/didChange in 402µs
+
+14:43:27.678 [debug] handled notification client -> server textDocument/didChange in 263µs
+
+14:43:27.827 [debug] handled notification client -> server textDocument/didChange in 264µs
+
+14:43:27.977 [debug] handled notification client -> server textDocument/didChange in 530µs
+
+14:43:28.126 [debug] handled notification client -> server textDocument/didChange in 648µs
+
+14:43:28.275 [debug] handled notification client -> server textDocument/didChange in 454µs
+
+14:43:28.425 [debug] handled notification client -> server textDocument/didChange in 561µs
+
+14:43:28.574 [debug] handled notification client -> server textDocument/didChange in 303µs
+
+14:43:28.726 [debug] handled notification client -> server textDocument/didChange in 443µs
+
+14:43:28.915 [debug] handled notification client -> server textDocument/didChange in 533µs
+
+14:43:29.318 id=54 [debug] handled request client -> server textDocument/codeAction in 317µs
+
+14:43:29.419 id=55 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+14:43:30.833 [debug] handled notification client -> server textDocument/didChange in 259µs
+
+14:43:31.348 id=56 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+14:43:31.781 [debug] handled notification client -> server textDocument/didChange in 541µs
+
+14:43:31.930 [debug] handled notification client -> server textDocument/didChange in 302µs
+
+14:43:32.080 [debug] handled notification client -> server textDocument/didChange in 236µs
+
+14:43:32.230 [debug] handled notification client -> server textDocument/didChange in 253µs
+
+14:43:32.392 [debug] handled notification client -> server textDocument/didChange in 439µs
+
+14:43:32.575 [debug] handled notification client -> server textDocument/didChange in 404µs
+
+14:43:32.724 [debug] handled notification client -> server textDocument/didChange in 285µs
+
+14:43:32.873 [debug] handled notification client -> server textDocument/didChange in 520µs
+
+14:43:33.022 [debug] handled notification client -> server textDocument/didChange in 412µs
+
+14:43:33.193 [debug] handled notification client -> server textDocument/didChange in 249µs
+
+14:43:33.343 [debug] handled notification client -> server textDocument/didChange in 294µs
+
+14:43:33.492 [debug] handled notification client -> server textDocument/didChange in 514µs
+
+14:43:33.641 [debug] handled notification client -> server textDocument/didChange in 398µs
+
+14:43:33.791 [debug] handled notification client -> server textDocument/didChange in 220µs
+
+14:43:33.941 [debug] handled notification client -> server textDocument/didChange in 505µs
+
+14:43:34.273 [debug] handled notification client -> server textDocument/didChange in 395µs
+
+14:43:34.433 [debug] handled notification client -> server textDocument/didChange in 255µs
+
+14:43:34.681 [debug] handled notification client -> server textDocument/didChange in 687µs
+
+14:43:35.001 [debug] handled notification client -> server textDocument/didChange in 426µs
+
+14:43:35.184 [debug] handled notification client -> server textDocument/didChange in 246µs
+
+14:43:35.377 [debug] handled notification client -> server textDocument/didChange in 469µs
+
+14:43:35.716 id=57 [debug] handled request client -> server textDocument/codeAction in 480µs
+
+14:43:35.881 id=58 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+14:43:36.449 id=130 [debug] sent request server -> client window/workDoneProgress/create
+
+14:43:36.449 [debug] handled notification client -> server textDocument/didSave in 520µs
+
+14:43:36.452 [debug] sent notification server -> client $/progress
+
+14:43:36.453 [debug] sent notification server -> client window/logMessage
+
+14:43:36.453 [info] Compiling 5 files (.ex)
+
+
+14:43:36.459 [debug] sent notification server -> client window/logMessage
+
+14:43:36.459 [info] 
+== Compilation error in file lib/skitter/crawler_supervisor.ex ==
+** (FunctionClauseError) no function clause matching in Base.decode64!/2    
+    
+    The following arguments were given to Base.decode64!/2:
+    
+        # 1
+        nil
+    
+        # 2
+        []
+    
+    Attempted function clauses (showing 1 out of 1):
+    
+        def decode64!(+string+, +opts+) when -is_binary(string)-
+    
+    (elixir 1.17.2) lib/base.ex:553: Base.decode64!/2
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:241: NextLSPrivate.Tracer.parent_pid/0
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:64: NextLSPrivate.Tracer.trace/2
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env."-trace/2-lc$^0/1-0-"/3
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env.trace/2
+    (elixir 1.17.2) lib/kernel/parallel_compiler.ex:429: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+14:43:36.464 [debug] sent notification server -> client $/progress
+
+14:43:36.464 [debug] sent notification server -> client window/logMessage
+
+14:43:36.464 [info] Compiled /home/neuro/projects/personal/Skitter!
+
+14:43:36.465 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:43:36.465 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:43:36.465 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:49:22.886 id=59 [debug] handled request client -> server textDocument/codeAction in 252µs
+
+14:49:23.330 id=60 [debug] handled request client -> server textDocument/codeAction in 246µs
+
+14:49:23.710 id=61 [debug] handled request client -> server textDocument/codeAction in 656µs
+
+14:56:26.684 id=62 [debug] handled request client -> server textDocument/codeAction in 325µs
+
+14:56:27.041 id=63 [debug] handled request client -> server textDocument/codeAction in 583µs
+
+14:56:27.661 id=64 [debug] handled request client -> server textDocument/codeAction in 457µs
+
+14:56:27.849 id=65 [debug] handled request client -> server textDocument/codeAction in 343µs
+
+14:56:27.939 id=66 [debug] handled request client -> server textDocument/codeAction in 263µs
+
+14:56:29.473 [debug] handled notification client -> server textDocument/didOpen in 104µs
+
+14:56:29.475 id=67 [debug] handled request client -> server textDocument/documentSymbol in 452µs
+
+14:56:29.719 id=68 [debug] handled request client -> server textDocument/codeAction in 225µs
+
+14:56:30.200 [debug] handled notification client -> server textDocument/didChange in 426µs
+
+14:56:30.201 id=69 [debug] handled request client -> server textDocument/codeAction in 673µs
+
+14:56:30.700 id=70 [debug] handled request client -> server textDocument/documentSymbol in 989µs
+
+14:56:30.933 id=71 [debug] handled request client -> server textDocument/codeAction in 592µs
+
+14:56:31.188 [debug] handled notification client -> server textDocument/didChange in 436µs
+
+14:56:31.198 id=72 [debug] handled request client -> server textDocument/codeAction in 192µs
+
+14:56:31.694 id=73 [debug] handled request client -> server textDocument/documentSymbol in 755µs
+
+14:56:33.807 id=74 [debug] handled request client -> server textDocument/codeAction in 664µs
+
+14:56:33.923 id=75 [debug] handled request client -> server textDocument/codeAction in 320µs
+
+14:56:36.101 id=76 [debug] handled request client -> server textDocument/codeAction in 284µs
+
+14:56:36.511 [debug] handled notification client -> server textDocument/didChange in 601µs
+
+14:56:37.019 id=77 [debug] handled request client -> server textDocument/documentSymbol in 872µs
+
+14:56:37.081 [debug] handled notification client -> server textDocument/didChange in 476µs
+
+14:56:37.364 [debug] handled notification client -> server textDocument/didChange in 489µs
+
+14:56:37.611 [debug] handled notification client -> server textDocument/didChange in 235µs
+
+14:56:37.762 [debug] handled notification client -> server textDocument/didChange in 733µs
+
+14:56:37.911 [debug] handled notification client -> server textDocument/didChange in 462µs
+
+14:56:38.198 [debug] handled notification client -> server textDocument/didChange in 228µs
+
+14:56:38.392 [debug] handled notification client -> server textDocument/didChange in 510µs
+
+14:56:38.541 [debug] handled notification client -> server textDocument/didChange in 421µs
+
+14:56:38.747 [debug] handled notification client -> server textDocument/didChange in 233µs
+
+14:56:39.187 [debug] handled notification client -> server textDocument/didChange in 474µs
+
+14:56:39.522 [debug] handled notification client -> server textDocument/didChange in 435µs
+
+14:56:39.929 [debug] handled notification client -> server textDocument/didChange in 253µs
+
+14:56:40.201 [debug] handled notification client -> server textDocument/didChange in 489µs
+
+14:56:40.704 id=78 [debug] handled request client -> server textDocument/documentSymbol in 742µs
+
+14:56:40.733 [debug] handled notification client -> server textDocument/didChange in 486µs
+
+14:56:41.108 [debug] handled notification client -> server textDocument/didChange in 427µs
+
+14:56:41.257 [debug] handled notification client -> server textDocument/didChange in 249µs
+
+14:56:41.407 [debug] handled notification client -> server textDocument/didChange in 527µs
+
+14:56:41.557 [debug] handled notification client -> server textDocument/didChange in 378µs
+
+14:56:42.057 id=79 [debug] handled request client -> server textDocument/documentSymbol in 845µs
+
+14:56:42.165 [debug] handled notification client -> server textDocument/didChange in 426µs
+
+14:56:42.314 [debug] handled notification client -> server textDocument/didChange in 487µs
+
+14:56:42.463 [debug] handled notification client -> server textDocument/didChange in 312µs
+
+14:56:42.613 [debug] handled notification client -> server textDocument/didChange in 396µs
+
+14:56:42.762 [debug] handled notification client -> server textDocument/didChange in 425µs
+
+14:56:42.912 [debug] handled notification client -> server textDocument/didChange in 633µs
+
+14:56:43.060 [debug] handled notification client -> server textDocument/didChange in 209µs
+
+14:56:43.209 [debug] handled notification client -> server textDocument/didChange in 526µs
+
+14:56:43.358 [debug] handled notification client -> server textDocument/didChange in 420µs
+
+14:56:43.518 [debug] handled notification client -> server textDocument/didChange in 225µs
+
+14:56:43.668 [debug] handled notification client -> server textDocument/didChange in 806µs
+
+14:56:43.817 [debug] handled notification client -> server textDocument/didChange in 378µs
+
+14:56:43.967 [debug] handled notification client -> server textDocument/didChange in 465µs
+
+14:56:44.116 [debug] handled notification client -> server textDocument/didChange in 471µs
+
+14:56:44.266 [debug] handled notification client -> server textDocument/didChange in 765µs
+
+14:56:44.414 [debug] handled notification client -> server textDocument/didChange in 306µs
+
+14:56:44.565 [debug] handled notification client -> server textDocument/didChange in 564µs
+
+14:56:44.714 [debug] handled notification client -> server textDocument/didChange in 507µs
+
+14:56:44.865 [debug] handled notification client -> server textDocument/didChange in 441µs
+
+14:56:45.015 [debug] handled notification client -> server textDocument/didChange in 487µs
+
+14:56:45.256 [debug] handled notification client -> server textDocument/didChange in 282µs
+
+14:56:45.405 [debug] handled notification client -> server textDocument/didChange in 388µs
+
+14:56:45.554 [debug] handled notification client -> server textDocument/didChange in 467µs
+
+14:56:45.703 [debug] handled notification client -> server textDocument/didChange in 504µs
+
+14:56:45.852 [debug] handled notification client -> server textDocument/didChange in 505µs
+
+14:56:46.000 [debug] handled notification client -> server textDocument/didChange in 442µs
+
+14:56:46.171 [debug] handled notification client -> server textDocument/didChange in 645µs
+
+14:56:46.374 [debug] handled notification client -> server textDocument/didChange in 760µs
+
+14:56:46.523 [debug] handled notification client -> server textDocument/didChange in 227µs
+
+14:56:46.672 [debug] handled notification client -> server textDocument/didChange in 469µs
+
+14:56:46.822 [debug] handled notification client -> server textDocument/didChange in 566µs
+
+14:56:46.973 [debug] handled notification client -> server textDocument/didChange in 525µs
+
+14:56:47.123 [debug] handled notification client -> server textDocument/didChange in 709µs
+
+14:56:47.622 id=80 [debug] handled request client -> server textDocument/documentSymbol in 697µs
+
+14:56:48.523 [debug] handled notification client -> server textDocument/didChange in 345µs
+
+14:56:48.867 [debug] handled notification client -> server textDocument/didChange in 827µs
+
+14:56:49.019 [debug] handled notification client -> server textDocument/didChange in 467µs
+
+14:56:49.489 [debug] handled notification client -> server textDocument/didChange in 908µs
+
+14:56:49.638 [debug] handled notification client -> server textDocument/didChange in 286µs
+
+14:56:49.788 [debug] handled notification client -> server textDocument/didChange in 316µs
+
+14:56:49.937 [debug] handled notification client -> server textDocument/didChange in 278µs
+
+14:56:50.119 [debug] handled notification client -> server textDocument/didChange in 949µs
+
+14:56:50.268 [debug] handled notification client -> server textDocument/didChange in 271µs
+
+14:56:50.418 [debug] handled notification client -> server textDocument/didChange in 425µs
+
+14:56:50.568 [debug] handled notification client -> server textDocument/didChange in 377µs
+
+14:56:50.856 [debug] handled notification client -> server textDocument/didChange in 346µs
+
+14:56:51.032 [debug] handled notification client -> server textDocument/didChange in 365µs
+
+14:56:51.181 [debug] handled notification client -> server textDocument/didChange in 552µs
+
+14:56:51.330 [debug] handled notification client -> server textDocument/didChange in 288µs
+
+14:56:51.516 [debug] handled notification client -> server textDocument/didChange in 589µs
+
+14:56:51.830 [debug] handled notification client -> server textDocument/didChange in 355µs
+
+14:56:52.336 id=81 [debug] handled request client -> server textDocument/documentSymbol in 564µs
+
+14:56:52.469 [debug] handled notification client -> server textDocument/didChange in 749µs
+
+14:56:52.617 [debug] handled notification client -> server textDocument/didChange in 295µs
+
+14:56:52.767 [debug] handled notification client -> server textDocument/didChange in 570µs
+
+14:56:52.917 [debug] handled notification client -> server textDocument/didChange in 242µs
+
+14:56:53.117 [debug] handled notification client -> server textDocument/didChange in 240µs
+
+14:56:53.289 [debug] handled notification client -> server textDocument/didChange in 236µs
+
+14:56:53.439 [debug] handled notification client -> server textDocument/didChange in 688µs
+
+14:56:53.589 [debug] handled notification client -> server textDocument/didChange in 570µs
+
+14:56:53.738 [debug] handled notification client -> server textDocument/didChange in 262µs
+
+14:56:53.887 [debug] handled notification client -> server textDocument/didChange in 247µs
+
+14:56:54.037 [debug] handled notification client -> server textDocument/didChange in 245µs
+
+14:56:54.188 [debug] handled notification client -> server textDocument/didChange in 869µs
+
+14:56:54.335 [debug] handled notification client -> server textDocument/didChange in 290µs
+
+14:56:54.484 [debug] handled notification client -> server textDocument/didChange in 564µs
+
+14:56:54.984 id=82 [debug] handled request client -> server textDocument/documentSymbol in 472µs
+
+14:56:55.296 [debug] handled notification client -> server textDocument/didChange in 237µs
+
+14:56:55.445 [debug] handled notification client -> server textDocument/didChange in 659µs
+
+14:56:55.594 [debug] handled notification client -> server textDocument/didChange in 589µs
+
+14:56:55.743 [debug] handled notification client -> server textDocument/didChange in 270µs
+
+14:56:55.892 [debug] handled notification client -> server textDocument/didChange in 245µs
+
+14:56:56.041 [debug] handled notification client -> server textDocument/didChange in 248µs
+
+14:56:56.213 [debug] handled notification client -> server textDocument/didChange in 576µs
+
+14:56:56.362 [debug] handled notification client -> server textDocument/didChange in 304µs
+
+14:56:56.597 [debug] handled notification client -> server textDocument/didChange in 615µs
+
+14:56:56.746 [debug] handled notification client -> server textDocument/didChange in 252µs
+
+14:56:56.897 [debug] handled notification client -> server textDocument/didChange in 271µs
+
+14:56:57.155 [debug] handled notification client -> server textDocument/didChange in 707µs
+
+14:56:57.305 [debug] handled notification client -> server textDocument/didChange in 396µs
+
+14:56:57.455 [debug] handled notification client -> server textDocument/didChange in 641µs
+
+14:56:57.603 [debug] handled notification client -> server textDocument/didChange in 243µs
+
+14:56:57.758 [debug] handled notification client -> server textDocument/didChange in 349µs
+
+14:56:57.966 [debug] handled notification client -> server textDocument/didChange in 599µs
+
+14:56:58.222 [debug] handled notification client -> server textDocument/didChange in 315µs
+
+14:56:58.372 [debug] handled notification client -> server textDocument/didChange in 510µs
+
+14:56:58.539 [debug] handled notification client -> server textDocument/didChange in 246µs
+
+14:56:58.689 [debug] handled notification client -> server textDocument/didChange in 238µs
+
+14:56:58.839 [debug] handled notification client -> server textDocument/didChange in 694µs
+
+14:56:58.988 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+14:56:59.138 [debug] handled notification client -> server textDocument/didChange in 621µs
+
+14:56:59.287 [debug] handled notification client -> server textDocument/didChange in 239µs
+
+14:56:59.437 [debug] handled notification client -> server textDocument/didChange in 218µs
+
+14:56:59.586 [debug] handled notification client -> server textDocument/didChange in 626µs
+
+14:56:59.735 [debug] handled notification client -> server textDocument/didChange in 284µs
+
+14:56:59.885 [debug] handled notification client -> server textDocument/didChange in 506µs
+
+14:57:00.035 [debug] handled notification client -> server textDocument/didChange in 248µs
+
+14:57:00.184 [debug] handled notification client -> server textDocument/didChange in 233µs
+
+14:57:00.334 [debug] handled notification client -> server textDocument/didChange in 709µs
+
+14:57:00.674 [debug] handled notification client -> server textDocument/didChange in 281µs
+
+14:57:01.178 id=83 [debug] handled request client -> server textDocument/documentSymbol in 871µs
+
+14:57:01.269 [debug] handled notification client -> server textDocument/didChange in 245µs
+
+14:57:01.419 [debug] handled notification client -> server textDocument/didChange in 605µs
+
+14:57:01.568 [debug] handled notification client -> server textDocument/didChange in 306µs
+
+14:57:01.718 [debug] handled notification client -> server textDocument/didChange in 525µs
+
+14:57:01.868 [debug] handled notification client -> server textDocument/didChange in 282µs
+
+14:57:02.016 [debug] handled notification client -> server textDocument/didChange in 229µs
+
+14:57:02.166 [debug] handled notification client -> server textDocument/didChange in 300µs
+
+14:57:02.379 [debug] handled notification client -> server textDocument/didChange in 697µs
+
+14:57:02.528 [debug] handled notification client -> server textDocument/didChange in 255µs
+
+14:57:02.678 [debug] handled notification client -> server textDocument/didChange in 335µs
+
+14:57:02.844 [debug] handled notification client -> server textDocument/didChange in 739µs
+
+14:57:02.994 [debug] handled notification client -> server textDocument/didChange in 345µs
+
+14:57:03.145 [debug] handled notification client -> server textDocument/didChange in 527µs
+
+14:57:03.294 [debug] handled notification client -> server textDocument/didChange in 258µs
+
+14:57:03.443 [debug] handled notification client -> server textDocument/didChange in 735µs
+
+14:57:03.592 [debug] handled notification client -> server textDocument/didChange in 258µs
+
+14:57:03.743 [debug] handled notification client -> server textDocument/didChange in 697µs
+
+14:57:03.892 [debug] handled notification client -> server textDocument/didChange in 226µs
+
+14:57:04.041 [debug] handled notification client -> server textDocument/didChange in 266µs
+
+14:57:04.191 [debug] handled notification client -> server textDocument/didChange in 757µs
+
+14:57:04.341 [debug] handled notification client -> server textDocument/didChange in 643µs
+
+14:57:04.489 [debug] handled notification client -> server textDocument/didChange in 255µs
+
+14:57:04.639 [debug] handled notification client -> server textDocument/didChange in 260µs
+
+14:57:04.988 [debug] handled notification client -> server textDocument/didChange in 788µs
+
+14:57:05.159 [debug] handled notification client -> server textDocument/didChange in 435µs
+
+14:57:05.308 [debug] handled notification client -> server textDocument/didChange in 658µs
+
+14:57:05.457 [debug] handled notification client -> server textDocument/didChange in 264µs
+
+14:57:05.607 [debug] handled notification client -> server textDocument/didChange in 763µs
+
+14:57:05.756 [debug] handled notification client -> server textDocument/didChange in 288µs
+
+14:57:05.906 [debug] handled notification client -> server textDocument/didChange in 535µs
+
+14:57:06.055 [debug] handled notification client -> server textDocument/didChange in 241µs
+
+14:57:06.204 [debug] handled notification client -> server textDocument/didChange in 257µs
+
+14:57:06.354 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+14:57:06.505 [debug] handled notification client -> server textDocument/didChange in 626µs
+
+14:57:06.654 [debug] handled notification client -> server textDocument/didChange in 261µs
+
+14:57:06.804 [debug] handled notification client -> server textDocument/didChange in 606µs
+
+14:57:06.953 [debug] handled notification client -> server textDocument/didChange in 284µs
+
+14:57:07.102 [debug] handled notification client -> server textDocument/didChange in 711µs
+
+14:57:07.580 [debug] handled notification client -> server textDocument/didChange in 243µs
+
+14:57:07.731 [debug] handled notification client -> server textDocument/didChange in 875µs
+
+14:57:07.988 [debug] handled notification client -> server textDocument/didChange in 315µs
+
+14:57:08.326 [debug] handled notification client -> server textDocument/didChange in 677µs
+
+14:57:08.826 [debug] handled notification client -> server textDocument/didChange in 267µs
+
+14:57:08.828 id=84 [debug] handled request client -> server textDocument/documentSymbol in 975µs
+
+14:57:08.976 [debug] handled notification client -> server textDocument/didChange in 574µs
+
+14:57:09.125 [debug] handled notification client -> server textDocument/didChange in 241µs
+
+14:57:09.397 [debug] handled notification client -> server textDocument/didChange in 647µs
+
+14:57:09.557 [debug] handled notification client -> server textDocument/didChange in 322µs
+
+14:57:09.953 [debug] handled notification client -> server textDocument/didChange in 611µs
+
+14:57:10.157 [debug] handled notification client -> server textDocument/didChange in 253µs
+
+14:57:10.307 [debug] handled notification client -> server textDocument/didChange in 646µs
+
+14:57:10.585 [debug] handled notification client -> server textDocument/didChange in 484µs
+
+14:57:10.734 [debug] handled notification client -> server textDocument/didChange in 615µs
+
+14:57:10.884 [debug] handled notification client -> server textDocument/didChange in 276µs
+
+14:57:11.384 id=85 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+14:57:13.840 [debug] handled notification client -> server textDocument/didChange in 513µs
+
+14:57:13.989 [debug] handled notification client -> server textDocument/didChange in 263µs
+
+14:57:14.140 [debug] handled notification client -> server textDocument/didChange in 784µs
+
+14:57:14.289 [debug] handled notification client -> server textDocument/didChange in 542µs
+
+14:57:14.456 [debug] handled notification client -> server textDocument/didChange in 303µs
+
+14:57:14.606 [debug] handled notification client -> server textDocument/didChange in 633µs
+
+14:57:14.755 [debug] handled notification client -> server textDocument/didChange in 314µs
+
+14:57:14.905 [debug] handled notification client -> server textDocument/didChange in 822µs
+
+14:57:15.054 [debug] handled notification client -> server textDocument/didChange in 281µs
+
+14:57:15.203 [debug] handled notification client -> server textDocument/didChange in 624µs
+
+14:57:15.354 [debug] handled notification client -> server textDocument/didChange in 302µs
+
+14:57:15.592 [debug] handled notification client -> server textDocument/didChange in 678µs
+
+14:57:15.742 [debug] handled notification client -> server textDocument/didChange in 650µs
+
+14:57:15.891 [debug] handled notification client -> server textDocument/didChange in 278µs
+
+14:57:16.040 [debug] handled notification client -> server textDocument/didChange in 649µs
+
+14:57:16.189 [debug] handled notification client -> server textDocument/didChange in 257µs
+
+14:57:16.337 [debug] handled notification client -> server textDocument/didChange in 668µs
+
+14:57:16.487 [debug] handled notification client -> server textDocument/didChange in 605µs
+
+14:57:16.637 [debug] handled notification client -> server textDocument/didChange in 264µs
+
+14:57:16.787 [debug] handled notification client -> server textDocument/didChange in 717µs
+
+14:57:17.194 id=86 [debug] handled request client -> server textDocument/codeAction in 264µs
+
+14:57:17.288 id=87 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+14:57:17.959 [debug] handled notification client -> server textDocument/didChange in 447µs
+
+14:57:18.109 [debug] handled notification client -> server textDocument/didChange in 391µs
+
+14:57:18.258 [debug] handled notification client -> server textDocument/didChange in 333µs
+
+14:57:18.407 [debug] handled notification client -> server textDocument/didChange in 324µs
+
+14:57:18.709 [debug] handled notification client -> server textDocument/didChange in 301µs
+
+14:57:18.859 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+14:57:19.009 [debug] handled notification client -> server textDocument/didChange in 291µs
+
+14:57:19.158 [debug] handled notification client -> server textDocument/didChange in 740µs
+
+14:57:19.307 [debug] handled notification client -> server textDocument/didChange in 251µs
+
+14:57:19.457 id=88 [debug] handled request client -> server textDocument/codeAction in 251µs
+
+14:57:19.807 id=89 [debug] handled request client -> server textDocument/documentSymbol in 522µs
+
+14:57:19.916 id=90 [debug] handled request client -> server textDocument/codeAction in 254µs
+
+14:57:21.322 [debug] handled notification client -> server textDocument/didChange in 381µs
+
+14:57:21.830 id=91 [debug] handled request client -> server textDocument/documentSymbol in 914µs
+
+14:57:21.981 [debug] handled notification client -> server textDocument/didChange in 300µs
+
+14:57:22.149 [debug] handled notification client -> server textDocument/didChange in 303µs
+
+14:57:22.300 [debug] handled notification client -> server textDocument/didChange in 633µs
+
+14:57:22.448 [debug] handled notification client -> server textDocument/didChange in 235µs
+
+14:57:22.598 [debug] handled notification client -> server textDocument/didChange in 255µs
+
+14:57:22.811 [debug] handled notification client -> server textDocument/didChange in 274µs
+
+14:57:22.961 [debug] handled notification client -> server textDocument/didChange in 251µs
+
+14:57:23.111 [debug] handled notification client -> server textDocument/didChange in 251µs
+
+14:57:23.290 [debug] handled notification client -> server textDocument/didChange in 641µs
+
+14:57:23.439 [debug] handled notification client -> server textDocument/didChange in 344µs
+
+14:57:23.588 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+14:57:23.738 [debug] handled notification client -> server textDocument/didChange in 564µs
+
+14:57:24.215 [debug] handled notification client -> server textDocument/didChange in 257µs
+
+14:57:24.589 [debug] handled notification client -> server textDocument/didChange in 340µs
+
+14:57:24.878 [debug] handled notification client -> server textDocument/didChange in 251µs
+
+14:57:25.027 [debug] handled notification client -> server textDocument/didChange in 262µs
+
+14:57:25.177 [debug] handled notification client -> server textDocument/didChange in 257µs
+
+14:57:25.326 [debug] handled notification client -> server textDocument/didChange in 830µs
+
+14:57:25.475 [debug] handled notification client -> server textDocument/didChange in 335µs
+
+14:57:25.624 [debug] handled notification client -> server textDocument/didChange in 669µs
+
+14:57:25.774 [debug] handled notification client -> server textDocument/didChange in 280µs
+
+14:57:25.924 [debug] handled notification client -> server textDocument/didChange in 236µs
+
+14:57:26.073 [debug] handled notification client -> server textDocument/didChange in 239µs
+
+14:57:26.223 [debug] handled notification client -> server textDocument/didChange in 256µs
+
+14:57:26.373 [debug] handled notification client -> server textDocument/didChange in 253µs
+
+14:57:26.524 [debug] handled notification client -> server textDocument/didChange in 708µs
+
+14:57:26.673 [debug] handled notification client -> server textDocument/didChange in 310µs
+
+14:57:26.822 [debug] handled notification client -> server textDocument/didChange in 479µs
+
+14:57:26.973 [debug] handled notification client -> server textDocument/didChange in 642µs
+
+14:57:27.122 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+14:57:27.271 [debug] handled notification client -> server textDocument/didChange in 256µs
+
+14:57:27.421 [debug] handled notification client -> server textDocument/didChange in 248µs
+
+14:57:27.570 [debug] handled notification client -> server textDocument/didChange in 263µs
+
+14:57:27.721 [debug] handled notification client -> server textDocument/didChange in 725µs
+
+14:57:27.869 [debug] handled notification client -> server textDocument/didChange in 320µs
+
+14:57:28.203 [debug] handled notification client -> server textDocument/didChange in 305µs
+
+14:57:28.354 [debug] handled notification client -> server textDocument/didChange in 850µs
+
+14:57:28.566 [debug] handled notification client -> server textDocument/didChange in 262µs
+
+14:57:28.716 [debug] handled notification client -> server textDocument/didChange in 268µs
+
+14:57:28.866 [debug] handled notification client -> server textDocument/didChange in 274µs
+
+14:57:29.015 [debug] handled notification client -> server textDocument/didChange in 262µs
+
+14:57:29.165 [debug] handled notification client -> server textDocument/didChange in 283µs
+
+14:57:29.515 [debug] handled notification client -> server textDocument/didChange in 776µs
+
+14:57:29.691 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+14:57:29.841 [debug] handled notification client -> server textDocument/didChange in 647µs
+
+14:57:29.990 [debug] handled notification client -> server textDocument/didChange in 347µs
+
+14:57:30.140 [debug] handled notification client -> server textDocument/didChange in 267µs
+
+14:57:30.290 [debug] handled notification client -> server textDocument/didChange in 262µs
+
+14:57:30.442 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+14:57:30.591 [debug] handled notification client -> server textDocument/didChange in 910µs
+
+14:57:30.740 [debug] handled notification client -> server textDocument/didChange in 315µs
+
+14:57:30.890 [debug] handled notification client -> server textDocument/didChange in 349µs
+
+14:57:31.249 [debug] handled notification client -> server textDocument/didChange in 761µs
+
+14:57:31.421 [debug] handled notification client -> server textDocument/didChange in 373µs
+
+14:57:31.581 [debug] handled notification client -> server textDocument/didChange in 265µs
+
+14:57:31.732 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+14:57:31.881 [debug] handled notification client -> server textDocument/didChange in 273µs
+
+14:57:32.074 [debug] handled notification client -> server textDocument/didChange in 989µs
+
+14:57:32.255 [debug] handled notification client -> server textDocument/didChange in 292µs
+
+14:57:32.572 [debug] handled notification client -> server textDocument/didChange in 305µs
+
+14:57:32.789 [debug] handled notification client -> server textDocument/didChange in 840µs
+
+14:57:32.937 [debug] handled notification client -> server textDocument/didChange in 257µs
+
+14:57:33.087 [debug] handled notification client -> server textDocument/didChange in 253µs
+
+14:57:33.411 [debug] handled notification client -> server textDocument/didChange in 268µs
+
+14:57:33.559 [debug] handled notification client -> server textDocument/didChange in 220µs
+
+14:57:33.710 [debug] handled notification client -> server textDocument/didChange in 934µs
+
+14:57:33.859 [debug] handled notification client -> server textDocument/didChange in 326µs
+
+14:57:34.008 [debug] handled notification client -> server textDocument/didChange in 792µs
+
+14:57:34.157 [debug] handled notification client -> server textDocument/didChange in 293µs
+
+14:57:34.388 [debug] handled notification client -> server textDocument/didChange in 378µs
+
+14:57:34.538 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+14:57:34.694 [debug] handled notification client -> server textDocument/didChange in 266µs
+
+14:57:35.016 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+14:57:35.165 [debug] handled notification client -> server textDocument/didChange in 310µs
+
+14:57:35.314 [debug] handled notification client -> server textDocument/didChange in 302µs
+
+14:57:35.626 id=92 [debug] handled request client -> server textDocument/codeAction in 637µs
+
+14:57:35.814 id=93 [debug] handled request client -> server textDocument/documentSymbol in 542µs
+
+14:57:36.102 id=94 [debug] handled request client -> server textDocument/codeAction in 228µs
+
+14:57:36.744 id=95 [debug] handled request client -> server textDocument/codeAction in 228µs
+
+14:57:36.884 id=96 [debug] handled request client -> server textDocument/codeAction in 211µs
+
+14:57:38.235 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+14:57:38.244 id=97 [debug] handled request client -> server textDocument/codeAction in 261µs
+
+14:57:38.740 id=98 [debug] handled request client -> server textDocument/documentSymbol in 683µs
+
+14:57:39.394 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+14:57:39.671 id=99 [debug] handled request client -> server textDocument/codeAction in 259µs
+
+14:57:39.897 id=100 [debug] handled request client -> server textDocument/documentSymbol in 615µs
+
+14:57:43.242 id=162 [debug] sent request server -> client window/workDoneProgress/create
+
+14:57:43.242 [debug] handled notification client -> server textDocument/didSave in 670µs
+
+14:57:43.244 [debug] sent notification server -> client $/progress
+
+14:57:43.247 [debug] sent notification server -> client window/logMessage
+
+14:57:43.247 [info] Compiling 5 files (.ex)
+
+
+14:57:43.253 [debug] sent notification server -> client window/logMessage
+
+14:57:43.253 [info] 
+== Compilation error in file lib/skitter/crawler_supervisor.ex ==
+** (FunctionClauseError) no function clause matching in Base.decode64!/2    
+    
+    The following arguments were given to Base.decode64!/2:
+    
+        # 1
+        nil
+    
+        # 2
+        []
+    
+    Attempted function clauses (showing 1 out of 1):
+    
+        def decode64!(+string+, +opts+) when -is_binary(string)-
+    
+    (elixir 1.17.2) lib/base.ex:553: Base.decode64!/2
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:241: NextLSPrivate.Tracer.parent_pid/0
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:64: NextLSPrivate.Tracer.trace/2
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env."-trace/2-lc$^0/1-0-"/3
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env.trace/2
+    (elixir 1.17.2) lib/kernel/parallel_compiler.ex:429: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+14:57:43.258 [debug] sent notification server -> client $/progress
+
+14:57:43.258 [debug] sent notification server -> client window/logMessage
+
+14:57:43.259 [info] Compiled /home/neuro/projects/personal/Skitter!
+
+14:57:43.259 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:57:43.259 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:57:43.259 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+14:57:43.259 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+15:02:42.068 id=101 [debug] handled request client -> server textDocument/codeAction in 297µs
+
+15:02:50.397 id=102 [debug] handled request client -> server textDocument/codeAction in 245µs
+
+15:02:50.815 id=103 [debug] handled request client -> server textDocument/codeAction in 280µs
+
+15:02:51.185 id=104 [debug] handled request client -> server textDocument/codeAction in 315µs
+
+15:02:52.653 id=105 [debug] handled request client -> server textDocument/codeAction in 256µs
+
+15:02:52.805 id=106 [debug] handled request client -> server textDocument/codeAction in 288µs
+
+15:02:53.007 id=107 [debug] handled request client -> server textDocument/codeAction in 290µs
+
+15:02:53.031 id=108 [debug] handled request client -> server textDocument/codeAction in 278µs
+
+15:02:53.078 id=109 [debug] handled request client -> server textDocument/codeAction in 244µs
+
+15:02:53.468 id=110 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+15:02:54.031 id=111 [debug] handled request client -> server textDocument/codeAction in 215µs
+
+15:02:55.792 [debug] handled notification client -> server textDocument/didChange in 317µs
+
+15:02:56.296 id=112 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+15:02:56.576 [debug] handled notification client -> server textDocument/didChange in 472µs
+
+15:02:56.765 [debug] handled notification client -> server textDocument/didChange in 432µs
+
+15:02:56.952 [debug] handled notification client -> server textDocument/didChange in 455µs
+
+15:02:57.456 id=113 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+15:02:57.793 id=114 [debug] handled request client -> server textDocument/codeAction in 337µs
+
+15:02:58.783 id=115 [debug] handled request client -> server textDocument/codeAction in 259µs
+
+15:02:58.975 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:02:58.983 id=116 [debug] handled request client -> server textDocument/codeAction in 263µs
+
+15:02:59.478 id=117 [debug] handled request client -> server textDocument/documentSymbol in 632µs
+
+15:02:59.742 id=118 [debug] handled request client -> server textDocument/codeAction in 229µs
+
+15:03:00.280 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:03:00.784 id=119 [debug] handled request client -> server textDocument/documentSymbol in 664µs
+
+15:03:00.914 id=120 [debug] handled request client -> server textDocument/codeAction in 832µs
+
+15:03:01.153 id=121 [debug] handled request client -> server textDocument/codeAction in 176µs
+
+15:03:01.537 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+15:03:01.770 id=122 [debug] handled request client -> server textDocument/codeAction in 225µs
+
+15:03:02.040 id=123 [debug] handled request client -> server textDocument/documentSymbol in 547µs
+
+15:03:04.574 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:03:04.583 id=124 [debug] handled request client -> server textDocument/codeAction in 232µs
+
+15:03:05.075 id=125 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+15:03:05.401 [debug] handled notification client -> server textDocument/didChange in 257µs
+
+15:03:05.412 id=126 [debug] handled request client -> server textDocument/codeAction in 192µs
+
+15:03:05.905 id=127 [debug] handled request client -> server textDocument/documentSymbol in 526µs
+
+15:03:07.477 id=194 [debug] sent request server -> client window/workDoneProgress/create
+
+15:03:07.478 [debug] handled notification client -> server textDocument/didSave in 1ms
+
+15:03:07.478 [debug] sent notification server -> client $/progress
+
+15:03:07.483 [debug] sent notification server -> client window/logMessage
+
+15:03:07.483 [info] Compiling 5 files (.ex)
+
+
+15:03:07.489 [debug] sent notification server -> client window/logMessage
+
+15:03:07.489 [info] 
+== Compilation error in file lib/skitter.ex ==
+** (FunctionClauseError) no function clause matching in Base.decode64!/2    
+    
+    The following arguments were given to Base.decode64!/2:
+    
+        # 1
+        nil
+    
+        # 2
+        []
+    
+    Attempted function clauses (showing 1 out of 1):
+    
+        def decode64!(+string+, +opts+) when -is_binary(string)-
+    
+    (elixir 1.17.2) lib/base.ex:553: Base.decode64!/2
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:241: NextLSPrivate.Tracer.parent_pid/0
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:64: NextLSPrivate.Tracer.trace/2
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env."-trace/2-lc$^0/1-0-"/3
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env.trace/2
+    (elixir 1.17.2) lib/kernel/parallel_compiler.ex:429: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+15:03:07.495 [debug] sent notification server -> client $/progress
+
+15:03:07.495 [debug] sent notification server -> client window/logMessage
+
+15:03:07.495 [info] Compiled /home/neuro/projects/personal/Skitter!
+
+15:03:07.495 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+15:03:07.495 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+15:03:07.496 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+15:03:07.496 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+15:03:34.074 id=128 [debug] handled request client -> server textDocument/codeAction in 222µs
+
+15:03:34.539 id=129 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+15:03:37.339 id=130 [debug] handled request client -> server textDocument/codeAction in 227µs
+
+15:03:38.169 id=131 [debug] handled request client -> server textDocument/codeAction in 239µs
+
+15:03:57.499 id=132 [debug] handled request client -> server textDocument/codeAction in 236µs
+
+15:03:59.551 [debug] handled notification client -> server textDocument/didOpen in 117µs
+
+15:03:59.551 id=133 [debug] handled request client -> server textDocument/documentSymbol in 137µs
+
+15:03:59.786 id=134 [debug] handled request client -> server textDocument/codeAction in 307µs
+
+15:04:00.601 [debug] handled notification client -> server textDocument/didChange in 239µs
+
+15:04:00.932 id=135 [debug] handled request client -> server textDocument/codeAction in 225µs
+
+15:04:01.102 id=136 [debug] handled request client -> server textDocument/documentSymbol in 658µs
+
+15:04:02.598 id=137 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+15:04:03.347 id=138 [debug] handled request client -> server textDocument/codeAction in 220µs
+
+15:04:03.625 [debug] handled notification client -> server textDocument/didChange in 211µs
+
+15:04:04.130 id=139 [debug] handled request client -> server textDocument/documentSymbol in 671µs
+
+15:04:04.263 [debug] handled notification client -> server textDocument/didChange in 215µs
+
+15:04:04.620 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+15:04:04.779 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:04:04.927 [debug] handled notification client -> server textDocument/didChange in 219µs
+
+15:04:05.077 [debug] handled notification client -> server textDocument/didChange in 224µs
+
+15:04:05.226 [debug] handled notification client -> server textDocument/didChange in 225µs
+
+15:04:05.376 [debug] handled notification client -> server textDocument/didChange in 606µs
+
+15:04:05.525 [debug] handled notification client -> server textDocument/didChange in 177µs
+
+15:04:05.675 [debug] handled notification client -> server textDocument/didChange in 184µs
+
+15:04:05.825 [debug] handled notification client -> server textDocument/didChange in 175µs
+
+15:04:05.975 [debug] handled notification client -> server textDocument/didChange in 176µs
+
+15:04:06.125 [debug] handled notification client -> server textDocument/didChange in 281µs
+
+15:04:06.274 [debug] handled notification client -> server textDocument/didChange in 191µs
+
+15:04:06.425 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:04:06.574 [debug] handled notification client -> server textDocument/didChange in 229µs
+
+15:04:06.723 [debug] handled notification client -> server textDocument/didChange in 220µs
+
+15:04:06.873 [debug] handled notification client -> server textDocument/didChange in 218µs
+
+15:04:07.023 [debug] handled notification client -> server textDocument/didChange in 243µs
+
+15:04:07.173 [debug] handled notification client -> server textDocument/didChange in 796µs
+
+15:04:07.321 [debug] handled notification client -> server textDocument/didChange in 265µs
+
+15:04:07.473 [debug] handled notification client -> server textDocument/didChange in 184µs
+
+15:04:07.622 [debug] handled notification client -> server textDocument/didChange in 190µs
+
+15:04:07.772 [debug] handled notification client -> server textDocument/didChange in 179µs
+
+15:04:08.138 [debug] handled notification client -> server textDocument/didChange in 194µs
+
+15:04:08.291 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:04:08.439 [debug] handled notification client -> server textDocument/didChange in 226µs
+
+15:04:08.939 id=140 [debug] handled request client -> server textDocument/documentSymbol in 663µs
+
+15:04:09.288 [debug] handled notification client -> server textDocument/didChange in 699µs
+
+15:04:09.468 [debug] handled notification client -> server textDocument/didChange in 260µs
+
+15:04:09.617 [debug] handled notification client -> server textDocument/didChange in 185µs
+
+15:04:09.782 [debug] handled notification client -> server textDocument/didChange in 272µs
+
+15:04:09.932 [debug] handled notification client -> server textDocument/didChange in 197µs
+
+15:04:10.433 id=141 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+15:04:10.464 [debug] handled notification client -> server textDocument/didChange in 215µs
+
+15:04:10.619 [debug] handled notification client -> server textDocument/didChange in 340µs
+
+15:04:10.768 [debug] handled notification client -> server textDocument/didChange in 345µs
+
+15:04:10.917 [debug] handled notification client -> server textDocument/didChange in 712µs
+
+15:04:11.067 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+15:04:11.567 id=142 [debug] handled request client -> server textDocument/documentSymbol in 614µs
+
+15:04:11.804 [debug] handled notification client -> server textDocument/didChange in 180µs
+
+15:04:12.023 [debug] handled notification client -> server textDocument/didChange in 186µs
+
+15:04:12.173 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:04:12.322 [debug] handled notification client -> server textDocument/didChange in 218µs
+
+15:04:12.472 [debug] handled notification client -> server textDocument/didChange in 219µs
+
+15:04:12.621 [debug] handled notification client -> server textDocument/didChange in 223µs
+
+15:04:12.975 [debug] handled notification client -> server textDocument/didChange in 640µs
+
+15:04:13.124 [debug] handled notification client -> server textDocument/didChange in 198µs
+
+15:04:13.272 [debug] handled notification client -> server textDocument/didChange in 179µs
+
+15:04:13.422 [debug] handled notification client -> server textDocument/didChange in 182µs
+
+15:04:13.572 [debug] handled notification client -> server textDocument/didChange in 250µs
+
+15:04:13.824 [debug] handled notification client -> server textDocument/didChange in 190µs
+
+15:04:14.038 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:04:14.188 [debug] handled notification client -> server textDocument/didChange in 213µs
+
+15:04:14.338 [debug] handled notification client -> server textDocument/didChange in 224µs
+
+15:04:14.488 [debug] handled notification client -> server textDocument/didChange in 236µs
+
+15:04:14.670 [debug] handled notification client -> server textDocument/didChange in 216µs
+
+15:04:14.848 [debug] handled notification client -> server textDocument/didChange in 583µs
+
+15:04:15.351 id=143 [debug] handled request client -> server textDocument/documentSymbol in 532µs
+
+15:04:15.378 [debug] handled notification client -> server textDocument/didChange in 179µs
+
+15:04:15.528 [debug] handled notification client -> server textDocument/didChange in 185µs
+
+15:04:15.679 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:04:15.826 [debug] handled notification client -> server textDocument/didChange in 236µs
+
+15:04:15.989 [debug] handled notification client -> server textDocument/didChange in 230µs
+
+15:04:16.138 [debug] handled notification client -> server textDocument/didChange in 228µs
+
+15:04:16.288 [debug] handled notification client -> server textDocument/didChange in 731µs
+
+15:04:16.437 [debug] handled notification client -> server textDocument/didChange in 189µs
+
+15:04:16.586 [debug] handled notification client -> server textDocument/didChange in 181µs
+
+15:04:16.736 [debug] handled notification client -> server textDocument/didChange in 213µs
+
+15:04:16.886 [debug] handled notification client -> server textDocument/didChange in 185µs
+
+15:04:17.036 [debug] handled notification client -> server textDocument/didChange in 192µs
+
+15:04:17.186 [debug] handled notification client -> server textDocument/didChange in 835µs
+
+15:04:17.334 [debug] handled notification client -> server textDocument/didChange in 255µs
+
+15:04:17.483 [debug] handled notification client -> server textDocument/didChange in 227µs
+
+15:04:17.633 [debug] handled notification client -> server textDocument/didChange in 232µs
+
+15:04:17.783 [debug] handled notification client -> server textDocument/didChange in 729µs
+
+15:04:17.932 [debug] handled notification client -> server textDocument/didChange in 188µs
+
+15:04:18.433 id=144 [debug] handled request client -> server textDocument/documentSymbol in 479µs
+
+15:04:20.012 [debug] handled notification client -> server textDocument/didChange in 179µs
+
+15:04:20.162 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:04:20.488 [debug] handled notification client -> server textDocument/didChange in 221µs
+
+15:04:20.990 id=145 [debug] handled request client -> server textDocument/documentSymbol in 644µs
+
+15:04:21.198 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:04:21.392 [debug] handled notification client -> server textDocument/didChange in 231µs
+
+15:04:21.542 [debug] handled notification client -> server textDocument/didChange in 239µs
+
+15:04:21.692 [debug] handled notification client -> server textDocument/didChange in 222µs
+
+15:04:21.842 [debug] handled notification client -> server textDocument/didChange in 244µs
+
+15:04:21.992 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:04:22.145 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+15:04:22.294 [debug] handled notification client -> server textDocument/didChange in 233µs
+
+15:04:22.795 id=146 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+15:04:22.826 [debug] handled notification client -> server textDocument/didChange in 273µs
+
+15:04:23.165 [debug] handled notification client -> server textDocument/didChange in 184µs
+
+15:04:23.469 [debug] handled notification client -> server textDocument/didChange in 191µs
+
+15:04:23.618 [debug] handled notification client -> server textDocument/didChange in 190µs
+
+15:04:23.771 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:04:23.920 [debug] handled notification client -> server textDocument/didChange in 270µs
+
+15:04:24.068 [debug] handled notification client -> server textDocument/didChange in 229µs
+
+15:04:24.221 [debug] handled notification client -> server textDocument/didChange in 229µs
+
+15:04:24.372 [debug] handled notification client -> server textDocument/didChange in 643µs
+
+15:04:24.521 [debug] handled notification client -> server textDocument/didChange in 209µs
+
+15:04:24.671 [debug] handled notification client -> server textDocument/didChange in 197µs
+
+15:04:24.819 [debug] handled notification client -> server textDocument/didChange in 166µs
+
+15:04:24.969 [debug] handled notification client -> server textDocument/didChange in 235µs
+
+15:04:25.123 [debug] handled notification client -> server textDocument/didChange in 826µs
+
+15:04:25.272 [debug] handled notification client -> server textDocument/didChange in 221µs
+
+15:04:25.422 [debug] handled notification client -> server textDocument/didChange in 244µs
+
+15:04:25.571 [debug] handled notification client -> server textDocument/didChange in 230µs
+
+15:04:25.723 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+15:04:25.872 [debug] handled notification client -> server textDocument/didChange in 187µs
+
+15:04:26.070 [debug] handled notification client -> server textDocument/didChange in 227µs
+
+15:04:26.450 id=147 [debug] handled request client -> server textDocument/codeAction in 183µs
+
+15:04:26.576 id=148 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+15:04:27.717 [debug] handled notification client -> server textDocument/didChange in 230µs
+
+15:04:27.728 id=149 [debug] handled request client -> server textDocument/codeAction in 253µs
+
+15:04:28.224 id=150 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+15:04:29.054 id=226 [debug] sent request server -> client window/workDoneProgress/create
+
+15:04:29.054 [debug] handled notification client -> server textDocument/didSave in 536µs
+
+15:04:29.059 [debug] sent notification server -> client window/logMessage
+
+15:04:29.060 [info] Compiling 5 files (.ex)
+
+
+15:04:29.060 [debug] sent notification server -> client $/progress
+
+15:04:29.064 id=151 [debug] handled request client -> server textDocument/codeAction in 300µs
+
+15:04:29.065 [debug] sent notification server -> client window/logMessage
+
+15:04:29.065 [info] 
+== Compilation error in file lib/skitter.ex ==
+** (FunctionClauseError) no function clause matching in Base.decode64!/2    
+    
+    The following arguments were given to Base.decode64!/2:
+    
+        # 1
+        nil
+    
+        # 2
+        []
+    
+    Attempted function clauses (showing 1 out of 1):
+    
+        def decode64!(+string+, +opts+) when -is_binary(string)-
+    
+    (elixir 1.17.2) lib/base.ex:553: Base.decode64!/2
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:241: NextLSPrivate.Tracer.parent_pid/0
+    /home/neuro/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/monkey/_next_ls_private_compiler.ex:64: NextLSPrivate.Tracer.trace/2
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env."-trace/2-lc$^0/1-0-"/3
+    (elixir 1.17.2) src/elixir_env.erl:30: :elixir_env.trace/2
+    (elixir 1.17.2) lib/kernel/parallel_compiler.ex:429: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+
+15:04:29.071 [debug] sent notification server -> client $/progress
+
+15:04:29.071 [debug] sent notification server -> client window/logMessage
+
+15:04:29.072 [info] Compiled /home/neuro/projects/personal/Skitter!
+
+15:04:29.072 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+15:04:29.072 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+15:04:29.072 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+15:04:29.073 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+15:04:29.128 id=152 [debug] handled request client -> server textDocument/codeAction in 280µs
+
+15:06:31.071 id=153 [debug] handled request client -> server textDocument/codeAction in 271µs
+
+15:06:31.835 id=154 [debug] handled request client -> server textDocument/codeAction in 3ms
+
+15:06:39.645 id=155 [debug] handled request client -> server textDocument/codeAction in 609µs
+
+15:06:44.117 [debug] handled notification client -> server textDocument/didClose in 2ms
+
+15:06:44.863 id=156 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+15:06:46.079 id=157 [debug] handled request client -> server textDocument/codeAction in 253µs
+
+15:06:46.329 id=158 [debug] handled request client -> server textDocument/codeAction in 258µs
+
+15:06:46.438 id=159 [debug] handled request client -> server textDocument/codeAction in 277µs
+
+15:06:47.418 id=160 [debug] handled request client -> server shutdown in 799µs
+
+15:06:47.428 [debug] sent notification server -> client window/logMessage
+
+15:06:47.428 [info] The runtime for /home/neuro/projects/personal/Skitter has successfully shut down.
+
+15:06:47.429 [error] Writer crashed (:epipe)

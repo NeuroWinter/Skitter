@@ -1,0 +1,15 @@
+# Elixir build artifacts
+/_build/
+/deps/
+/erl_crash.dump
+
+# Test coverage
+/cover/
+
+# Dialyzer PLT files
+*.plt
+*.plt.hash
+
+# Optional: VSCode settings, logs, OS cruft
+/.elixir_ls/
+/*.swp
