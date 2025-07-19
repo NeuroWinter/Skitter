@@ -10,3 +10,4 @@
 /.elixir_ls/
 /*.swp
 lib/.elixir-tools/
+ffuf_urls.txt

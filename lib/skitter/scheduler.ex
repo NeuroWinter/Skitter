@@ -32,7 +32,11 @@ defmodule Skitter.Scheduler do
         {:stop, :normal, state}
       else
         Enum.each(unvisited, fn {url, _status} ->
-          CrawlerSupervisor.start_crawler(url)
+          if Skitter.Cache.mark_as_seen(url) do
+            CrawlerSupervisor.start_crawler(url)
+          else
+            IO.puts("[Skitter] Skipping duplicate crawl for #{url}")
+          end
         end)
 
         Process.send_after(self(), :tick, @interval)
