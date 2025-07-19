@@ -31,7 +31,8 @@ defmodule Skitter.MixProject do
       {:telemetry, "~> 1.2"},
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 1.0"},
-      {:ex_doc, "~> 0.30", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.30", only: :dev, runtime: false},
+      {:qtrace, "~> 1.0", only: [:dev, :test]},
     ]
   end
 end
