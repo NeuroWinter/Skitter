@@ -4,8 +4,8 @@ defmodule Skitter.Scheduler do
   alias Skitter.LinkStore
   alias Skitter.CrawlerSupervisor
 
-  @interval 10_000  # run every 3 seconds
-  @batch_size 5    # crawl up to 5 links per interval
+  @interval 1_000
+  @batch_size 10
 
   def start_link(_opts) do
     GenServer.start_link(__MODULE__, :ok, name: __MODULE__)

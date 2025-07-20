@@ -17,17 +17,20 @@ defmodule Skitter.CrawlerWorker do
     url = Skitter.Util.normalize_url(url)
     IO.puts("[Skitter] Crawling #{url}")
 
-    case HTTPoison.get(url, [], follow_redirect: true) do
-      {:ok, %HTTPoison.Response{status_code: 200, body: body}} ->
+    request = Finch.build(:get, url, [], nil)
+
+    case Finch.request(request, SkitterFinch) do
+      {:ok, %Finch.Response{status: 200, body: body}} ->
+        base_uri = URI.parse(url)
+
         links =
           Floki.parse_document!(body)
           |> Floki.find("a[href]")
-          |> Enum.map(&Floki.attribute(&1, "href") |> List.first())
-          |> Enum.filter(& &1)
+          |> Stream.map(&List.first(Floki.attribute(&1, "href")))
+          |> Stream.filter(& &1)
+          |> Enum.to_list()  # Must materialize before async_stream
 
-        # here we need to make sure that we are adding the full url to the link store.
-        base_uri = URI.parse(url)
-        Enum.each(links, fn raw_link ->
+        Task.async_stream(links, fn raw_link ->
           full_url =
             raw_link
             |> URI.parse()
@@ -38,18 +41,21 @@ defmodule Skitter.CrawlerWorker do
           if Skitter.Util.allow_domain?(full_url) do
             LinkStore.add_link(full_url)
           end
-        end)
+        end,
+          max_concurrency: 10,
+          timeout: 1000
+        )
+        |> Stream.run()
 
         LinkStore.mark_visited(url)
+        IO.puts("[Skitter] Finished #{url}")
 
-        IO.puts("[Skitter] Found #{length(links)} links at #{url}")
-
-      {:ok, %HTTPoison.Response{status_code: status}} ->
+      {:ok, %Finch.Response{status: status}} ->
         IO.puts("[Skitter] Skipped #{url} - HTTP #{status}")
         LinkStore.mark_visited(url)
 
-      {:error, %HTTPoison.Error{reason: reason}} ->
-        IO.puts("[Skitter] Error fetching #{url}: #{inspect(reason)}")
+      {:error, error} ->
+        IO.puts("[Skitter] Error fetching #{url}: #{inspect(error)}")
     end
   end
 end
