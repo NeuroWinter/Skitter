@@ -5,9 +5,15 @@ defmodule Skitter.Application do
     children = [
       Skitter.LinkStore,
       {DynamicSupervisor, strategy: :one_for_one, name: Skitter.CrawlerSupervisor},
-      {Finch, name: SkitterFinch, pools: %{
-        default: [protocols: [:http2, :http1]]
-      }}
+      {Finch,
+       name: SkitterFinch,
+       pools: %{
+         default: [
+           size: 200,
+           count: System.schedulers_online(),
+           protocols: [:http2, :http1]
+         ]
+       }}
     ]
     #Skitter.FinchTelemetry.attach()
     #Skitter.MintTelemetry.attach()

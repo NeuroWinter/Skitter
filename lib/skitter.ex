@@ -28,8 +28,8 @@ defmodule Skitter do
     urls =
       LinkStore.all()
       |> Enum.filter(fn
-        {url, :visited} -> true
-        {url, {:visited, _depth}} -> true
+        {_, :visited} -> true
+        {_, {:visited, _depth}} -> true
         _ -> false
       end)
       |> Enum.map(&elem(&1, 0))
@@ -39,4 +39,9 @@ defmodule Skitter do
     File.write!(path, Enum.join(urls, "\n"))
     IO.puts("[Skitter] Exported #{length(urls)} URLs to #{path}")
   end
+
+  @doc """
+  Temporary function used by tests; returns :world.
+  """
+  def hello, do: :world
 end
