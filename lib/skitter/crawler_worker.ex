@@ -6,7 +6,6 @@ defmodule Skitter.CrawlerWorker do
   use Task
 
   alias Skitter.LinkStore
-  alias HTTPoison
   alias Floki
 
   def start_link(url) do
@@ -15,12 +14,28 @@ defmodule Skitter.CrawlerWorker do
 
   def crawl(url) do
     url = Skitter.Util.normalize_url(url)
-    IO.puts("[Skitter] Crawling #{url}")
+    # Debug logging removed for performance profiling
 
-    request = Finch.build(:get, url, [], nil)
+    headers = [
+      {"user-agent", "Skitter/0.1 (+https://github.com/NeuroWinter/skitter)"},
+      {"accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"}
+    ]
+    request = Finch.build(:get, url, headers, nil)
 
-    case Finch.request(request, SkitterFinch) do
-      {:ok, %Finch.Response{status: 200, body: body}} ->
+    case Finch.request(request, SkitterFinch, receive_timeout: 1_200, pool_timeout: 500) do
+      {:ok, %Finch.Response{status: 200, headers: headers, body: body}} ->
+        content_type =
+          headers
+          |> Enum.find_value(fn
+            {"content-type", ct} -> ct
+            {"Content-Type", ct} -> ct
+            _ -> nil
+          end)
+
+        if is_binary(content_type) and not String.starts_with?(content_type, "text/html") do
+          LinkStore.mark_visited(url)
+          :ok
+        else
         base_uri = URI.parse(url)
 
         links =
@@ -42,20 +57,42 @@ defmodule Skitter.CrawlerWorker do
             LinkStore.add_link(full_url)
           end
         end,
-          max_concurrency: 10,
-          timeout: 1000
+          max_concurrency: 100,
+          timeout: 3_000
         )
         |> Stream.run()
 
         LinkStore.mark_visited(url)
-        IO.puts("[Skitter] Finished #{url}")
+        end
 
-      {:ok, %Finch.Response{status: status}} ->
-        IO.puts("[Skitter] Skipped #{url} - HTTP #{status}")
+      {:ok, %Finch.Response{status: status, headers: headers}} when status in 301..308 ->
+        location =
+          headers
+          |> Enum.find_value(fn
+            {"location", loc} -> loc
+            {"Location", loc} -> loc
+            _ -> nil
+          end)
+
+        if location do
+          target =
+            location
+            |> URI.parse()
+            |> then(&URI.merge(URI.parse(url), &1))
+            |> URI.to_string()
+            |> Skitter.Util.normalize_url()
+
+          if Skitter.Util.allow_domain?(target) do
+            LinkStore.add_link(target)
+          end
+        end
         LinkStore.mark_visited(url)
 
-      {:error, error} ->
-        IO.puts("[Skitter] Error fetching #{url}: #{inspect(error)}")
+      {:ok, %Finch.Response{status: _status}} ->
+        LinkStore.mark_visited(url)
+
+      {:error, _error} ->
+        LinkStore.mark_visited(url)
     end
   end
 end

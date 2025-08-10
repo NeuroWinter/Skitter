@@ -13,8 +13,9 @@ defmodule Skitter.CrawlerSupervisor do
   end
 
   def start_crawler(url) do
+    # Ensure each worker has a unique ID so many can run concurrently
     child_spec = %{
-      id: Skitter.CrawlerWorker,
+      id: {:crawler, url},
       start: {Skitter.CrawlerWorker, :start_link, [url]},
       restart: :temporary
     }

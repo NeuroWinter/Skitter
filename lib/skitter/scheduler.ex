@@ -4,8 +4,8 @@ defmodule Skitter.Scheduler do
   alias Skitter.LinkStore
   alias Skitter.CrawlerSupervisor
 
-  @interval 1_000
-  @batch_size 10
+  @interval 100
+  @batch_size 100
 
   def start_link(_opts) do
     GenServer.start_link(__MODULE__, :ok, name: __MODULE__)
@@ -20,16 +20,22 @@ defmodule Skitter.Scheduler do
   @impl true
   def handle_info(:tick, state) do
     if not LinkStore.has_seed?() do
-      IO.puts("[Skitter] No base domain set — stopping scheduler.")
+      # No base domain set — stopping scheduler.
       {:stop, :normal, state}
     else
       unvisited = LinkStore.get_unvisited(@batch_size)
 
       if unvisited == [] do
-        IO.puts("[Skitter] No more unvisited URLs. Stopping crawl.")
-        Process.send_after(self(), :export_if_finished, 100)
-        Skitter.export_ffuf("ffuf_urls.txt")
-        {:stop, :normal, state}
+        if LinkStore.has_inflight?() do
+          # Wait for inflight workers to finish
+          Process.send_after(self(), :tick, @interval)
+          {:noreply, state}
+        else
+          # All work completed
+          emit_done_event()
+          Skitter.export_ffuf("ffuf_urls.txt")
+          {:stop, :normal, state}
+        end
       else
         Enum.each(unvisited, fn {url, _status} ->
           CrawlerSupervisor.start_crawler(url)
@@ -42,14 +48,18 @@ defmodule Skitter.Scheduler do
   end
 
   def handle_info(:export_if_finished, state) do
-    if Skitter.LinkStore.empty?() do
-      IO.puts("[Skitter] Exporting results to disk.")
-      Skitter.LinkStore.export()
-    end
     {:noreply, state}
   end
 
   defp schedule_next do
     Process.send_after(self(), :tick, @interval)
+  end
+
+  defp emit_done_event do
+    :telemetry.execute(
+      [:skitter, :crawl, :done],
+      %{visited: LinkStore.visited_count(), inflight: LinkStore.inflight_count(), unvisited: LinkStore.unvisited_count()},
+      %{}
+    )
   end
 end
